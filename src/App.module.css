@@ -1,19 +1,23 @@
 .container {
-  max-width: 144rem;
   display: grid;
-  /* grid-template-rows: 0.1fr 0.9fr;
-  grid-template-columns: 25.6rem 1fr; */
+  max-width: 144rem;
+
+  grid-template-columns: 25.6rem 118.4rem;
+  grid-template-rows: 6rem 79rem;
+
+  grid-template-areas: "sidebar searchbar" "sidebar content";
 
   .searchbar {
-    /* height: 6rem; */
+    grid-area: searchbar;
     background-color: #334d6e;
   }
 
   .sidebar {
-    /* grid-column: 1/-1; */
+    grid-area: sidebar;
     background-color: #109cf1;
   }
   .content {
+    grid-area: content;
     background-color: #323c47;
   }
 }
