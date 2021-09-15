@@ -1,9 +1,9 @@
 .App {
   height: 10rem;
   background-color: blue;
-}
 
-.App .nesto {
-  height: 30rem;
-  background-color: brown;
+  .nesto {
+    height: 30rem;
+    background-color: brown;
+  }
 }
