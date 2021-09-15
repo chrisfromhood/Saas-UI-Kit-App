@@ -1,1 +1,38 @@
+/*
+
+-----COLORS-----
+
+$color-accent-blue: #109CF1;
+$color-yellow: #FFB946;
+$color-red: #F7685B;
+$color-green: #2ED47A;
+$color-purple: #885AF8;
+
+$color-black: #192A3E;
+$color-table-black:#323C47; 
+$color-table-gray: #707683;
+$color-dark-blue:#334D6E;
+$color-gray:#90A0B7;
+$color-gray-icon:#C2CFE0;
+$color-white:#FFFFFF;
+
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+@import-normalize;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
