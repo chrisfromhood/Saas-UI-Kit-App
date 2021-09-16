@@ -1,25 +1,24 @@
-/*
+/* -----COLORS----- */
+:root {
+  --color-accent-blue: #109cf1;
+  --color-yellow: #ffb946;
+  --color-red: #f7685b;
+  --color-green: #2ed47a;
+  --color-purple: #885af8;
 
------COLORS-----
+  --color-table-black: #323c47;
+  --color-black: #192a3e;
 
-$color-accent-blue: #109CF1;
-$color-yellow: #FFB946;
-$color-red: #F7685B;
-$color-green: #2ED47A;
-$color-purple: #885AF8;
-
-$color-black: #192A3E;
-$color-table-black:#323C47; 
-$color-table-gray: #707683;
-$color-dark-blue:#334D6E;
-$color-gray:#90A0B7;
-$color-gray-icon:#C2CFE0;
-$color-white:#FFFFFF;
-
-*/
+  --color-table-gray: #707683;
+  --color-dark-blue: #334d6e;
+  --color-gray: #90a0b7;
+  --color-gray-icon: #c2cfe0;
+  --color-white: #ffffff;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
-@import-normalize;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 * {
   margin: 0;
