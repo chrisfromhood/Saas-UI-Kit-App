@@ -14,6 +14,8 @@
   --color-gray: #90a0b7;
   --color-gray-icon: #c2cfe0;
   --color-white: #ffffff;
+
+  --color-neutral-divider: #ebeff2;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
