@@ -7,6 +7,7 @@ import contactsIcon from "./assets/img/icons/contactsicon.svg";
 import chatIcon from "./assets/img/icons/chaticon.svg";
 import dealsIcon from "./assets/img/icons/dealsicon.svg";
 import settingsIcon from "./assets/img/icons/settingsicon.svg";
+import toggleIcon from "./assets/img/icons/toggle.svg";
 // SEARCH
 import searchIcon from "./assets/img/icons/search.svg";
 import notifyIcon from "./assets/img/icons/notifications.svg";
@@ -14,6 +15,8 @@ import notifyIcon from "./assets/img/icons/notifications.svg";
 import activeIcon from "./assets/img/circle/active_circle.svg";
 import completedIcon from "./assets/img/circle/completed_circle.svg";
 import endedIcon from "./assets/img/circle/ended_circle.svg";
+// HEADER
+import arrowIcon from "./assets/img/icons/arrow.svg";
 
 // className={cs[""]}
 //className={`${cs["prva-klasa"]} ${cs["druga-klasa"]}`}
@@ -96,8 +99,33 @@ function App() {
           <img src={settingsIcon} alt="Settings Icon" />
           <span>Settings</span>
         </div>
+        <div className={cs["side-option_toggle"]}>
+          <img src={toggleIcon} alt="Toggle Sidebar Icon" />
+          <span>Toggle sidebar</span>
+        </div>
       </div>
-      <div className={cs["content"]}>CONTENT</div>
+      <div className={cs["content"]}>
+        <div className={cs["header-section"]}>
+          <div className={cs["sort-feature_wrapper"]}>
+            <div className={cs["sort-feature_date"]}>
+              <p>
+                Date:<span>Today</span>
+                <img src={arrowIcon} alt="Arrow Down Icon" />
+              </p>
+            </div>
+            <div className={cs["sort-feature_type"]}>
+              <p>
+                Type:<span>All</span>
+                <img src={arrowIcon} alt="Arrow Down Icon" />
+              </p>
+            </div>
+          </div>
+
+          <div className={cs["btn-wrapper"]}>
+            <button className={cs["btn-default"]}> Create task</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -16,6 +16,8 @@
   --color-white: #ffffff;
 
   --color-neutral-divider: #ebeff2;
+
+  --color-neutral-gray: #6a707e;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
@@ -36,4 +38,11 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
 }

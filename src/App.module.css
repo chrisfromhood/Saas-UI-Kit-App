@@ -15,6 +15,7 @@
 
   .search {
     display: flex;
+    width: calc(100% - 4.1rem);
 
     background-color: var(--color-white);
 
@@ -26,7 +27,9 @@
       line-height: 1.8rem;
       letter-spacing: 0.1px;
       color: var(--color-gray);
+      background-color: var(--color-white);
       border-style: hidden;
+      padding: 2.1rem 0;
     }
 
     input:focus {
@@ -34,7 +37,6 @@
     }
 
     .search__button {
-      flex-grow: 1;
       background-color: var(--color-white);
       border: none;
       width: 2rem;
@@ -194,9 +196,94 @@
       color: var(--color-dark-blue);
     }
   }
+
+  .side-option_toggle {
+    align-self: flex-end;
+    margin-top: 23.4rem;
+    margin-bottom: 2.4rem;
+
+    img {
+      height: 1.4rem;
+      width: 1.4rem;
+      margin-left: 2.7rem;
+      margin-right: 1.4rem;
+    }
+
+    span {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      letter-spacing: 0.2px;
+      color: var(--color-dark-blue);
+    }
+  }
 }
 
 .content {
   grid-area: content;
-  background-color: #323c47;
+
+  .header-section {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+    .sort-feature_wrapper {
+      justify-content: space-between;
+      .sort-feature_date,
+      .sort-feature_type {
+        display: inline-block;
+
+        color: var(--color-neutral-gray);
+        cursor: pointer;
+        margin-left: 3.5rem;
+        margin-top: 5.9rem;
+        p {
+          font-weight: normal;
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          letter-spacing: 0.1px;
+
+          span {
+            margin-left: 0.4rem;
+            color: var(--color-accent-blue);
+          }
+
+          img {
+            height: 0.4rem;
+            width: 0.7rem;
+            margin-left: 0.6rem;
+          }
+          img:hover {
+            fill: var(--color-accent-blue);
+          }
+        }
+      }
+    }
+  }
+  .btn-wrapper {
+    .btn-default {
+      display: inline-block;
+
+      height: 4.2rem;
+      width: 16rem;
+      border-radius: 0.4rem;
+      border: none;
+      background-color: var(--color-accent-blue);
+
+      text-align: center;
+      padding: 1.1rem 1.4rem;
+      color: var(--color-white);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      letter-spacing: 0.01em;
+    }
+    .btn-default:hover {
+      box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+    }
+  }
 }
