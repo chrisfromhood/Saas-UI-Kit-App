@@ -17,6 +17,9 @@ import completedIcon from "./assets/img/circle/completed_circle.svg";
 import endedIcon from "./assets/img/circle/ended_circle.svg";
 // HEADER
 import arrowIcon from "./assets/img/icons/arrow.svg";
+// User Pictures
+import lindseyStroud from "./assets//img/lindseyStroud.jpg";
+import nicciTraioni from "./assets//img/nicciTraioni.jpg";
 
 // className={cs[""]}
 //className={`${cs["prva-klasa"]} ${cs["druga-klasa"]}`}
@@ -123,6 +126,48 @@ function App() {
 
           <div className={cs["btn-wrapper"]}>
             <button className={cs["btn-default"]}> Create task</button>
+          </div>
+        </div>
+        <div className={cs["table"]}>
+          <div className={cs["rt-thread-header"]}>
+            <div className={cs["rt-tr"]}>
+              <div className={cs["rt-th"]}>
+                <input type="checkbox" />
+              </div>
+              <div className={cs["rt-th"]}>Status</div>
+              <div className={cs["rt-th"]}>Title</div>
+              <div className={cs["rt-th"]}>Type</div>
+              <div className={cs["rt-th"]}>Associated with</div>
+              <div className={cs["rt-th"]}>Due date</div>
+            </div>
+          </div>
+          <div className={cs["rt-tbody"]}>
+            <div className={cs["rt-body_row_1"]}>
+              <div className={cs["rt-th-checkbox"]}>
+                <input type="checkbox" />
+              </div>
+              <div className={cs["rt-th-status"]}>Active</div>
+              <div className={cs["rt-th-title"]}>Send benefit review by Friday</div>
+              <div className={cs["rt-th-type"]}>Reminder</div>
+              <div className={cs["rt-th-associated"]}>
+                <img src={lindseyStroud} alt="Lindsey Stroud" />
+                <span>Lindsey Stroud</span>
+              </div>
+              <div className={cs["rt-th-duedate"]}>Dec 14, 2018</div>
+            </div>
+          </div>
+          <div className={cs["rt-body_row_2"]}>
+            <div className={cs["rt-th-checkbox"]}>
+              <input type="checkbox" />
+            </div>
+            <div className={cs["rt-th-status"]}>Ended</div>
+            <div className={cs["rt-th-title"]}>Call to check in</div>
+            <div className={cs["rt-th-type"]}>Call</div>
+            <div className={cs["rt-th-associated"]}>
+              <img src={nicciTraioni} alt="Nicci Traioni" />
+              <span>Nicci Traioni</span>
+            </div>
+            <div className={cs["rt-th-duedate"]}>Dec 14, 2018</div>
           </div>
         </div>
       </div>
