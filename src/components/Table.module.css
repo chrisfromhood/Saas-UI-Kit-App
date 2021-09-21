@@ -1,0 +1,131 @@
+.table {
+  margin: 10rem 3.5rem 0;
+  background-color: var(--color-white);
+}
+
+.table-head {
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+  padding: 1.4rem 0;
+}
+
+.table-row {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  padding: 1.4rem 0;
+  border-bottom: 0.1rem solid #EBEFF2;
+
+  .head-cell {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: var(--color-dark-blue);
+    opacity: 0.5;
+  }
+
+  .checkbox-width{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+  }
+
+  .status-width{
+    width: 15%;
+  }
+
+  .title-width{
+    width: 40%;
+  }
+
+  .type-width,
+  .duedate-width{
+    width: 10%;
+  }
+
+  .associated-width{
+    width: 20%;
+  }
+
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+
+  .table-row {
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+
+    .cell-data-checkbox {
+      display: flex;
+      justify-content: center;
+      width: 5%;
+      border-radius: 4px;
+    }
+
+    .cell-data-status {
+      width: 15%;
+      .btn-status {
+        height: 2.2rem;
+        width: 8.4rem;
+        background-color: var(--color-yellow);
+        text-align: center;
+        font-size: 11px;
+        line-height: 1.6rem;
+        letter-spacing: 0.2px;
+        color: var(--color-white);
+        border-radius: 0.4rem;
+        padding: 0.3rem 0.8rem 0.5rem;
+      }
+
+      .ended{
+        background-color: var(--color-red);
+      }
+
+      .completed{
+        background-color: var(--color-green);
+      }
+
+      
+    }
+    .cell-data-title {
+      width: 40%;
+      line-height: 23px;
+      letter-spacing: 0.1px;
+      color: var(--color-table-black);
+    }
+
+    .cell-data-type,
+    .cell-data-duedate {
+      width: 10%;
+      font-weight: 400;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      color: var(--color-table-gray);
+    }
+
+    .cell-data-associated {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      font-weight: 400;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      color: var(--color-table-gray);
+
+      img {
+        width: 2.4rem;
+        height: 2.4rem;
+        border-radius: 50%;
+        margin-right: 0.8rem;
+      }
+    }
+
+   
+  }
+}

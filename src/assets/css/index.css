@@ -18,6 +18,8 @@
   --color-neutral-divider: #ebeff2;
 
   --color-neutral-gray: #6a707e;
+  --color-background-gray: #F5F6F8 
+ 
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
