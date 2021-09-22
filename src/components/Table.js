@@ -1,11 +1,11 @@
-/* prettier-ignore */
+
 import React from "react";
 import cs from "./Table.module.css";
 
-import lindseyStroud from "../assets/img/lindseyStroud.jpg";
-import nicciTraioni from "../assets/img/nicciTraioni.jpg";
-import georgeFields from "../assets//img/georgeFields.jpg";
-import rebbeccaMoore from "../assets//img/rebbeccaMoore.jpg";
+import lindseyStroud from "../assets/img/users/lindseyStroud.jpg";
+import nicciTraioni from "../assets/img/users/nicciTraioni.jpg";
+import georgeFields from "../assets//img/users/georgeFields.jpg";
+import rebbeccaMoore from "../assets//img/users/rebbeccaMoore.jpg";
 
 function Table() {
   return (
@@ -49,7 +49,7 @@ function Table() {
             <input type="checkbox" />
           </div>
           <div className={cs["cell-data-status"]}>
-          <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
+            <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
           </div>
           <div className={cs["cell-data-title"]}>Call to check in</div>
           <div className={cs["cell-data-type"]}>Call</div>
@@ -58,9 +58,9 @@ function Table() {
             <span>Nicci Traioni</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 14, 2018</div>
-         </div> {/*!--- .table-row-2 ---  */}
+        </div> {/*!--- .table-row-2 ---  */}
 
-         <div className={cs["table-row"]}>
+        <div className={cs["table-row"]}>
           <div className={cs["cell-data-checkbox"]}>
             <input type="checkbox" />
           </div>
@@ -74,9 +74,9 @@ function Table() {
             <span>George Fields</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 14, 2018</div>
-         </div> {/*!--- .table-row-3 ---  */}
+        </div> {/*!--- .table-row-3 ---  */}
 
-         <div className={cs["table-row"]}>
+        <div className={cs["table-row"]}>
           <div className={cs["cell-data-checkbox"]}>
             <input type="checkbox" />
           </div>
@@ -90,9 +90,9 @@ function Table() {
             <span>George Fields</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 12, 2018</div>
-         </div> {/*!--- .table-row-4 ---  */}
+        </div> {/*!--- .table-row-4 ---  */}
 
-         <div className={cs["table-row"]}>
+        <div className={cs["table-row"]}>
           <div className={cs["cell-data-checkbox"]}>
             <input type="checkbox" />
           </div>
@@ -113,7 +113,7 @@ function Table() {
             <input type="checkbox" />
           </div>
           <div className={cs["cell-data-status"]}>
-          <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
+            <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
           </div>
           <div className={cs["cell-data-title"]}>Send benefit review</div>
           <div className={cs["cell-data-type"]}>Reminder</div>
@@ -122,9 +122,9 @@ function Table() {
             <span>Lindsey Stroud</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 10, 2018</div>
-         </div> {/*!--- .table-row-6 ---  */}
+        </div> {/*!--- .table-row-6 ---  */}
 
-         <div className={cs["table-row"]}>
+        <div className={cs["table-row"]}>
           <div className={cs["cell-data-checkbox"]}>
             <input type="checkbox" />
           </div>
@@ -154,14 +154,14 @@ function Table() {
             <span>Nicci Traioni</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 9, 2018</div>
-         </div> {/*!--- .table-row-8 ---  */}
+        </div> {/*!--- .table-row-8 ---  */}
 
-         <div className={cs["table-row"]}>
+        <div className={cs["table-row"]}>
           <div className={cs["cell-data-checkbox"]}>
             <input type="checkbox" />
           </div>
           <div className={cs["cell-data-status"]}>
-          <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
+            <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
           </div>
           <div className={cs["cell-data-title"]}>Invite to office meet-up</div>
           <div className={cs["cell-data-type"]}>Reminder</div>
@@ -170,14 +170,14 @@ function Table() {
             <span>George Fields</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 7, 2018</div>
-         </div> {/*!--- .table-row-9 ---  */}
+        </div> {/*!--- .table-row-9 ---  */}
 
-         <div className={cs["table-row"]}>
+        <div className={cs["table-row"]}>
           <div className={cs["cell-data-checkbox"]}>
             <input type="checkbox" />
           </div>
           <div className={cs["cell-data-status"]}>
-          <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
+            <div className={`${cs["btn-status"]} ${cs["ended"]}`}>Ended</div>
           </div>
           <div className={cs["cell-data-title"]}>Office meet-up</div>
           <div className={cs["cell-data-type"]}>Call</div>
@@ -186,7 +186,7 @@ function Table() {
             <span>Rebbeca Moore</span>
           </div>
           <div className={cs["cell-data-duedate"]}>Dec 10, 2018</div>
-         </div> {/*!--- .table-row-10 ---  */}
+        </div> {/*!--- .table-row-10 ---  */}
 
       </div>
     </div>
