@@ -2,7 +2,7 @@
   display: grid;
 
   grid-template-columns: 25.6rem 1fr;
-  grid-template-rows: 6rem 100vh;
+  grid-template-rows: 6rem minmax(100vh, auto);
 
   grid-template-areas: "sidebar searchbar" "sidebar content";
 }
@@ -128,8 +128,10 @@
     .side-status {
       display: flex;
       flex-direction: column;
+      flex-basis: 100%;
       align-items: flex-start;
-      margin: 0 2.4rem 1rem 6rem;
+      width: 100%;
+      margin: 1rem 2.4rem 0 6rem;
 
       .side-status_item {
         span {
@@ -151,9 +153,11 @@
         }
       }
     }
+
     .side-option_item {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
       margin-bottom: 2rem;
 
       img {
@@ -199,9 +203,9 @@
   }
 
   .side-option_toggle {
-    align-self: flex-end;
-    margin-top: 23.4rem;
-    margin-bottom: 2.4rem;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
 
     img {
       height: 1.4rem;

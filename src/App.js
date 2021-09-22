@@ -59,20 +59,20 @@ function App() {
           <div className={`${cs["side-option_item"]} ${cs["side-option_selected"]}`}>
             <img src={tasksIcon} alt="Tasks Icon" />
             <span>Tasks</span>
-          </div>
-
-          <div className={cs["side-status"]}>
-            <div className={cs["side-status_item"]}>
-              <img src={activeIcon} alt="Active Status Icon" />
-              <span>Active</span>
-            </div>
-            <div className={cs["side-status_item"]}>
-              <img src={completedIcon} alt="Completed Status Icon" />
-              <span>Completed</span>
-            </div>
-            <div className={cs["side-status_item"]}>
-              <img src={endedIcon} alt="Ended Status Icon" />
-              <span>Ended</span>
+            
+            <div className={cs["side-status"]}>
+              <div className={cs["side-status_item"]}>
+                <img src={activeIcon} alt="Active Status Icon" />
+                <span>Active</span>
+              </div>
+              <div className={cs["side-status_item"]}>
+                <img src={completedIcon} alt="Completed Status Icon" />
+                <span>Completed</span>
+              </div>
+              <div className={cs["side-status_item"]}>
+                <img src={endedIcon} alt="Ended Status Icon" />
+                <span>Ended</span>
+              </div>
             </div>
           </div>
 
