@@ -1,10 +1,7 @@
 import cs from "./App.module.css";
 import Table from "./components/Table";
 import Sidebar from "./components/Sidebar";
-
-// SEARCH
-import searchIcon from "./assets/img/icons/search.svg";
-import notifyIcon from "./assets/img/icons/notifications.svg";
+import Searchbar from "./components/Searchbar";
 
 // HEADER
 import arrowIcon from "./assets/img/icons/arrow.svg";
@@ -14,17 +11,8 @@ import arrowIcon from "./assets/img/icons/arrow.svg";
 function App() {
   return (
     <div className={cs["container"]}>
-      <div className={cs["searchbar"]}>
-        <form action="#" className={cs["search"]}>
-          <button className={cs["search__button"]}>
-            <img src={searchIcon} alt="Search Icon" />
-          </button>
-          <input type="text" className={cs["search__input"]} placeholder="Search tasks" />
-        </form>
-        <div className={cs["notify__icon"]}>
-          <img src={notifyIcon} alt="Notify Icon" />
-        </div>
-      </div>
+
+      <Searchbar />
 
       <Sidebar />
 

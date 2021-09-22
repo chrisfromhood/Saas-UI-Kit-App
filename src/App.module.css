@@ -6,50 +6,7 @@
 
   grid-template-areas: "sidebar searchbar" "sidebar content";
 }
-.searchbar {
-  display: flex;
-  align-items: center;
 
-  grid-area: searchbar;
-  background-color: var(--color-white);
-
-  .search {
-    display: flex;
-    width: calc(100% - 4.1rem);
-
-    background-color: var(--color-white);
-
-    input {
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 1.2rem;
-      line-height: 1.8rem;
-      letter-spacing: 0.1px;
-      color: var(--color-gray);
-      background-color: var(--color-white);
-      border-style: hidden;
-      padding: 2.1rem 0;
-    }
-
-    input:focus {
-      outline: none;
-    }
-
-    .search__button {
-      background-color: var(--color-white);
-      border: none;
-      width: 2rem;
-      height: 2rem;
-      margin: 2.25rem 1.49rem 2.3rem 3.85rem;
-    }
-  }
-  .notify__icon {
-    background-color: var(--color-white);
-    height: 2rem;
-    margin-right: 3.5rem;
-  }
-}
 
 .content {
   grid-area: content;
