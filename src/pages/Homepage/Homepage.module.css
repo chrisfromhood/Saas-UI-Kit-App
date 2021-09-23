@@ -1,0 +1,65 @@
+.landing-page {
+    display: grid;
+    grid-template-columns: 0.444fr 0.556fr;
+    grid-template-rows: minmax(100vh, auto);
+    grid-template-areas: "signin hero";
+  }
+  
+  .big-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-white);
+    background: linear-gradient(#34AFF9,#098EDF );
+  
+    .big-hero_wrapper {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      padding: 8rem 0;
+      text-align: center;
+    }
+  
+    .big-hero_header {
+      font-size: 2rem;
+      line-height: 3rem;
+      letter-spacing: 0.1px;
+      text-align: center;
+      margin:6.4rem 0 1.2rem;
+    }
+  
+    .big-hero_text {
+      max-width: 62%;
+      font-weight: 400;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      text-align: center; 
+    }
+  
+    .big-hero_dashes {
+  
+      display: flex;
+      margin: 8.6rem 0 12rem;
+  
+      .big-hero_dash {
+        width: 3.2rem;
+        height: 0.4rem;
+        background-color:var(--color-white);
+        border-radius: 0.6rem;
+      }
+  
+      .big-hero_dash:nth-of-type(2) {
+        margin: 0 0.6rem;
+      }
+  
+      .big-hero_dash:not(:first-of-type) {
+        opacity: 50%;
+      }
+    }
+  
+  }
+  
+  
+  
+  
+  
