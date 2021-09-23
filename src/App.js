@@ -1,7 +1,10 @@
+// import { Switch, Redirect, Route } from "react-router-dom";
+
 import cs from "./App.module.css";
 import Table from "./components/Table";
 import Sidebar from "./components/Sidebar";
 import Searchbar from "./components/Searchbar";
+
 
 // HEADER
 import arrowIcon from "./assets/img/icons/arrow.svg";
@@ -54,6 +57,12 @@ function App() {
             <img src={heroPhoto} alt="Hero" className={cs["big-hero_photo"]} />
             <h1 className={cs["big-hero_header"]}>Manage everything in one place</h1>
             <p className={cs["big-hero_text"]}>Accusam noluisse mel et. Ius duis menandri ne, rebum exerci ad his. Quo at tollit veniam assueverit.</p>
+          </div>
+
+          <div className={cs["big-hero_dashes"]}>
+            <div className={cs["big-hero_dash"]}></div>
+            <div className={cs["big-hero_dash"]}></div>
+            <div className={cs["big-hero_dash"]}></div>
           </div>
         </div> {/* -------End of .big-hero---- */}
 
