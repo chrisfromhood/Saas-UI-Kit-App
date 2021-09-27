@@ -2,6 +2,7 @@ import cs from "./Tasks.module.css";
 import Table from "../../components/Table";
 import Sidebar from "../../components/Sidebar";
 import Searchbar from "../../components/Searchbar";
+import ButtonDefault from "../../components/ButtonDefault"
 
 // HEADER
 import arrowIcon from "../../assets/img/icons/arrow.svg";
@@ -18,7 +19,7 @@ function Tasks() {
                 <Sidebar />
 
                 <div className={cs["content"]}>
-                    <TasksHeader className={`${cs["test-class"]} ${cs["test-class-2"]}`}>
+                    <TasksHeader>
                         <div className={cs["sort-feature_wrapper"]}>
                             <div className={cs["sort-feature_date"]}>
                                 <p>
@@ -34,9 +35,8 @@ function Tasks() {
                             </div>
                         </div>
 
-                        <div className={cs["btn-wrapper"]}>
-                            <button className={cs["btn-default"]}> Create task</button>
-                        </div>
+                        <ButtonDefault className={cs["button-mg_right"]}></ButtonDefault>
+
                     </TasksHeader>
 
                     <Table />

@@ -1,8 +1,8 @@
 import cs from "./TasksHeader.module.css";
 
-function TasksHeader({children, className}) {
+function TasksHeader({ children }) {
   return (
-    <div className={`${className} ${cs["header-section"]}`}>
+    <div className={cs["header-section"]}>
       {children}
     </div>
   )
