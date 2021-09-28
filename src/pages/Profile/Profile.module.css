@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: 25.6rem 1fr;
+    grid-template-rows: 6rem minmax(100vh, auto); 
+    grid-template-areas: "sidebar searchbar" 
+                         "sidebar content";
+    
+    .content {
+        .profile {
+            display: grid;
+            grid-template-columns: 0.1514fr repeat(2 0.423fr);
+            grid-template-areas: "avatar informations password";
+            background-color: var(--color-white);
+            margin:3.5rem 3.8rem 3.6rem 3.6rem;
+
+            .avatar {
+                img {
+                    height: 10.4rem;
+                    width: 10.4rem;
+                    border-radius: 50%;
+                }
+                
+                p {
+                    background-color: var(--color-dark-blue);         
+                    font-size: 1.1rem;
+                    line-height: 1.7rem;
+                    letter-spacing: 0.01em;
+                    text-align: center;
+                    padding: 0.4rem 0.7rem;
+                    margin: 2rem 4rem;
+                }
+            }
+        }  
+    }
+}
+
