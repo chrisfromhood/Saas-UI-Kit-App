@@ -18,10 +18,11 @@
                 font-size: 1.5rem;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 23rem;
+                line-height: 2.3rem;
                 letter-spacing: 0.10000000149011612px;
                 text-align: left; 
-                color: var(--color-black);   
+                color: var(--color-black);  
+                margin-bottom:2.3rem; 
             }
 
             .avatar {
@@ -46,12 +47,17 @@
                     border-radius: 0.4rem;
                     padding: 0.4rem 0.7rem;
                     margin: 2rem 4rem;
+                    color: var(--color-white);
                 }
             }
 
             .details{
                 margin: 3.2rem 4rem 2.3rem;
                 border-right: 1px solid var(--color-neutral-divider);
+
+                .basic-informations{
+                    margin-bottom: 5.5rem;
+                }
 
 
                 span {
@@ -68,10 +74,20 @@
                     line-height: 2rem;
                     letter-spacing: 0.10000000149011612px;
                     text-align: left;
+                    margin:0.5rem 0 2.3rem;
                 }
             }
             .change-password{
                 margin:3.2rem 4rem 0;
+            
+            .enter-previous,
+            .new{
+                margin-bottom: 3.7rem;
+            }
+            .confirm-new {
+                margin-bottom: 4rem;
+            }
+            
             }
             .password{
                 width: 100%;
@@ -84,7 +100,8 @@
                 opacity: 50%;
                 border:none;
                 border-bottom: 1px solid #D3D8DD;
-                margin: 4.4rem 0;
+                padding-bottom: 0.6rem;
+                
                 
 
             }
