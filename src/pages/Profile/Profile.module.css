@@ -8,27 +8,85 @@
     .content {
         .profile {
             display: grid;
-            grid-template-columns: 0.1514fr repeat(2 0.423fr);
+            grid-template-columns: 0.1514fr repeat(2, 0.423fr);
             grid-template-areas: "avatar informations password";
             background-color: var(--color-white);
-            margin:3.5rem 3.8rem 3.6rem 3.6rem;
+            margin: 3.5rem 3.8rem 3.6rem 3.6rem;
+            padding: 3.2rem 1.5rem 4.8rem;
+
+            h3 {
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 23rem;
+                letter-spacing: 0.10000000149011612px;
+                text-align: left; 
+                color: var(--color-black);   
+            }
 
             .avatar {
-                img {
-                    height: 10.4rem;
-                    width: 10.4rem;
-                    border-radius: 50%;
-                }
+                display: flex;
+                flex-direction: column;
+                border-right: 1px solid var(--color-neutral-divider);
+                     img {
+                         align-self: center;
+                        height: 10.4rem;
+                        width: 10.4rem; 
+                        object-fit: cover;
+                        border-radius: 50%;                      
+                    } 
+               
                 
                 p {
-                    background-color: var(--color-dark-blue);         
+                    background-color: var(--color-dark-blue);
                     font-size: 1.1rem;
                     line-height: 1.7rem;
                     letter-spacing: 0.01em;
                     text-align: center;
+                    border-radius: 0.4rem;
                     padding: 0.4rem 0.7rem;
                     margin: 2rem 4rem;
                 }
+            }
+
+            .details{
+                margin: 3.2rem 4rem 2.3rem;
+                border-right: 1px solid var(--color-neutral-divider);
+
+
+                span {
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 1.6rem;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    color: var(--color-textual-gray);
+                }
+
+                p {
+                    font-weight: 400;
+                    line-height: 2rem;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: left;
+                }
+            }
+            .change-password{
+                margin:3.2rem 4rem 0;
+            }
+            .password{
+                width: 100%;
+                font-size: 1.3rem;
+                font-weight: 400;
+                line-height: 2rem;
+                letter-spacing: 0.1px;
+                text-align: left;
+                color: var(--color-table-black);
+                opacity: 50%;
+                border:none;
+                border-bottom: 1px solid #D3D8DD;
+                margin: 4.4rem 0;
+                
+
             }
         }  
     }
