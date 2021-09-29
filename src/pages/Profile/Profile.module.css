@@ -1,11 +1,4 @@
-.container {
-    display: grid;
-    grid-template-columns: 25.6rem 1fr;
-    grid-template-rows: 6rem minmax(100vh, auto); 
-    grid-template-areas: "sidebar searchbar" 
-                         "sidebar content";
-    
-    .content {
+       .content {
         .profile {
             display: grid;
             grid-template-columns: 0.1514fr repeat(2, 0.423fr);
@@ -29,13 +22,32 @@
                 display: flex;
                 flex-direction: column;
                 border-right: 1px solid var(--color-neutral-divider);
-                     img {
-                         align-self: center;
+                
+                .avatar-logo{
+                    align-self: center;
+                    position: relative;
+
+                    .avatar-photo {
                         height: 10.4rem;
                         width: 10.4rem; 
                         object-fit: cover;
-                        border-radius: 50%;                      
-                    } 
+                        border-radius: 50%;
+                    }
+
+                    .edit-icon{
+                        width: 2.4rem;
+                        height: 2.4rem;
+                        border-radius: 50%;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        transform: translate(-20%,-30%);
+                        
+    
+                    }
+                }
+
+          
                
                 
                 p {
@@ -107,5 +119,5 @@
             }
         }  
     }
-}
+
 

@@ -1,7 +1,7 @@
 import cs from "./Searchbar.module.css";
 
-import searchIcon from "../assets/img/icons/search.svg";
-import notifyIcon from "../assets/img/icons/notifications.svg";
+import searchIcon from "../../assets/img/icons/search.svg";
+import notifyIcon from "../../assets/img/icons/notifications.svg";
 
 function Searchbar() {
     return (

@@ -12,6 +12,7 @@
   .content {
     grid-area: content;
     background-color: var(--color-background-gray);
+    position: relative;
 
     .border-bottom{
         width: 100%;
@@ -239,11 +240,15 @@
           }
         }
       }
- .footer{
+ 
+}
+.footer{
     display: grid;
     background-color: var(--color-white);
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto; 
+    grid-template-areas: "total1 total2 total3";
+    /* position: fixed;
+    z-index: 10; */
     color: var(--color-dark-blue);
     opacity: 50%;
     line-height: 2rem;
@@ -257,6 +262,4 @@
         margin-left: 2.8rem;
     }
  }
-}
-
  

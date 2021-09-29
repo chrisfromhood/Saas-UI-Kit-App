@@ -2,10 +2,10 @@
 import React from "react";
 import cs from "./Table.module.css";
 
-import lindseyStroud from "../assets/img/users/lindseyStroud.jpg";
-import nicciTraioni from "../assets/img/users/nicciTraioni.jpg";
-import georgeFields from "../assets//img/users/georgeFields.jpg";
-import rebbeccaMoore from "../assets//img/users/rebbeccaMoore.jpg";
+import lindseyStroud from "../../assets/img/users/lindseyStroud.jpg";
+import nicciTraioni from "../../assets/img/users/nicciTraioni.jpg";
+import georgeFields from "../../assets/img/users/georgeFields.jpg";
+import rebbeccaMoore from "../../assets//img/users/rebbeccaMoore.jpg";
 
 function Table() {
   return (

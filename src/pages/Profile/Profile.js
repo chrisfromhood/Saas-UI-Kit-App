@@ -1,23 +1,22 @@
 import cs from "./Profile.module.css";
-import Sidebar from "../../components/Sidebar";
-import Searchbar from "../../components/Searchbar";
+import AppPage from "../../components/AppPage/AppPage";
+import Button from "../../components/Button/Button";
+
 import avatar from "../../assets/img/users/Avatar.png";
-import ButtonDefault from "../../components/ButtonDefault";
+import edit from "../../assets/img/icons/edit.svg";
 
 function Profile() {
     return (
 
 
-        <div className={cs["container"]}>
-
-            <Searchbar />
-
-            <Sidebar />
-
+        <AppPage>
             <div className={cs["content"]}>
                 <div className={cs["profile"]}>
                     <div className={cs["avatar"]}>
-                        <img src={avatar} alt="User avatar profile" />
+                        <div className={cs["avatar-logo"]}>
+                            <img className={cs["avatar-photo"]} src={avatar} alt="User avatar profile" />
+                            <img className={cs["edit-icon"]} src={edit} alt="Edit user icon" />
+                        </div>
                         <p>Super admin</p>
                     </div>
                     <div className={cs["details"]}>
@@ -74,12 +73,15 @@ function Profile() {
                         <div className={cs["confirm-new"]}>
                             <input className={cs["password"]} type="text" placeholder="Confirm new password"></input>
                         </div>
-                        <ButtonDefault />
+                        <Button />
                     </div>
 
                 </div>
             </div>
-        </div>
+        </AppPage>
+
+
+
     );
 }
 

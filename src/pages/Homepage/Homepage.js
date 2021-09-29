@@ -1,5 +1,5 @@
 import cs from "./Homepage.module.css";
-import SignIn from "../../components/Sign-in";
+import SignIn from "../../components/Sign-in/Sign-in";
 import heroPhoto from "../../assets/img/sign/undraw_feeling_proud.svg";
 
 function Homepage() {

@@ -1,5 +1,5 @@
 import cs from "./Sign-in.module.css";
-import eyeIcon from "../assets/img/sign/eye.svg";
+import eyeIcon from "../../assets/img/sign/eye.svg";
 
 function SignIn() {
     return (

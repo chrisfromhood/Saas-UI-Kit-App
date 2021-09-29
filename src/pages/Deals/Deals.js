@@ -1,8 +1,8 @@
 import cs from "./Deals.module.css";
-import Sidebar from "../../components/Sidebar";
-import Searchbar from "../../components/Searchbar";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Searchbar from "../../components/Searchbar/Searchbar";
 import TasksHeader from "../Tasks/TasksHeader/TasksHeader";
-import ButtonDefault from "../../components/ButtonDefault";
+import Button from "../../components/Button/Button";
 
 import arrowIcon from "../../assets/img/icons/arrow.svg";
 import nicciTroiani from "../../assets/img/users/nicciTraioni.jpg";
@@ -34,7 +34,7 @@ function Deals() {
 
                     </div>
 
-                    <ButtonDefault></ButtonDefault>
+                    <Button></Button>
 
                 </TasksHeader>
 
@@ -204,7 +204,8 @@ function Deals() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>{/*!--- .deals-cards ---  */}
+
                 <div className={cs["footer"]}>
                     <div>
                         <span>Total: $170</span>
@@ -217,9 +218,9 @@ function Deals() {
                     </div>
 
                 </div>
-
-
             </div>
+
+
 
         </div>
     );

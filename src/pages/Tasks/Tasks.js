@@ -1,8 +1,8 @@
 import cs from "./Tasks.module.css";
-import Table from "../../components/Table";
-import Sidebar from "../../components/Sidebar";
-import Searchbar from "../../components/Searchbar";
-import ButtonDefault from "../../components/ButtonDefault"
+import Table from "../../components/Table/Table";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Searchbar from "../../components/Searchbar/Searchbar";
+import Button from "../../components/Button/Button";
 
 // HEADER
 import arrowIcon from "../../assets/img/icons/arrow.svg";
@@ -35,7 +35,7 @@ function Tasks() {
                             </div>
                         </div>
 
-                        <ButtonDefault className={cs["button-mg_right"]}></ButtonDefault>
+                        <Button className={cs["button-mg_right"]}></Button>
 
                     </TasksHeader>
 

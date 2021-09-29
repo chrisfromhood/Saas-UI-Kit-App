@@ -1,6 +1,6 @@
-import cs from "./ButtonDefault.module.css";
+import cs from "./Button.module.css";
 
-function ButtonDefault() {
+function Button() {
     return (
 
 
@@ -12,4 +12,4 @@ function ButtonDefault() {
     );
 }
 
-export default ButtonDefault;
+export default Button;
