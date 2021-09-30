@@ -38,48 +38,48 @@ function Sidebar() {
 
             <nav className={cs["side-options"]}>
                 <div className={cs["side-option_item"]}>
-                    <img src={dashboardIcon} alt="Dashboard Icon" className={cs["option_item_icon"]} />
-                    <span>Dashboard</span>
+                    <img src={dashboardIcon} alt="Dashboard Icon" className={cs["side-options_icon"]} />
+                    <a href="#">Dashboard</a>
                 </div>
 
-                <div className={`${cs["side-option_item"]} ${cs["side-option_selected"]}`}>
-                    <img src={tasksIcon} alt="Tasks Icon" />
+                <div className={cs["side-option_item"]}>
+                    <img src={tasksIcon} alt="Tasks Icon" className={cs["side-options_icon"]} />
                     <a href="#">Tasks</a>
 
                     <div className={cs["side-status"]}>
                         <div className={cs["side-status_item"]}>
-                            <img src={activeIcon} alt="Active Status Icon" />
+                            <img src={activeIcon} alt="Active Status Icon" className={cs["side-status_icon"]} />
                             <a href="#">Active</a>
                         </div>
                         <div className={cs["side-status_item"]}>
-                            <img src={completedIcon} alt="Completed Status Icon" />
+                            <img src={completedIcon} alt="Completed Status Icon" className={cs["side-status_icon"]} />
                             <a href="#">Completed</a>
                         </div>
                         <div className={cs["side-status_item"]}>
-                            <img src={endedIcon} alt="Ended Status Icon" />
+                            <img src={endedIcon} alt="Ended Status Icon" className={cs["side-status_icon"]} />
                             <a href="#">Ended</a>
                         </div>
                     </div>
                 </div>
 
                 <div className={cs["side-option_item"]}>
-                    <img src={emailIcon} alt="Email Icon" />
-                    <span>Email</span>
+                    <img src={emailIcon} alt="Email Icon" className={cs["side-options_icon"]} />
+                    <a href="#">Email</a>
                 </div>
 
                 <div className={cs["side-option_item"]}>
-                    <img src={contactsIcon} alt="Contacts Icon" />
-                    <span>Contacts</span>
+                    <img src={contactsIcon} alt="Contacts Icon" className={cs["side-options_icon"]} />
+                    <a href="#">Contacts</a>
                 </div>
 
                 <div className={cs["side-option_item"]}>
-                    <img src={chatIcon} alt="Chat Icon" />
-                    <span>Chat</span>
+                    <img src={chatIcon} alt="Chat Icon" className={cs["side-options_icon"]} />
+                    <a href="#">Chat</a>
                 </div>
 
                 <div className={cs["side-option_item"]}>
-                    <img src={dealsIcon} alt="Deals Icon" />
-                    <span>Deals</span>
+                    <img src={dealsIcon} alt="Deals Icon" className={cs["side-options_icon"]} />
+                    <a href="#">Deals</a>
                 </div>
             </nav>{/*!--- .side-options ---  */}
 

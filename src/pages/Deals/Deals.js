@@ -1,6 +1,5 @@
 import cs from "./Deals.module.css";
-import Sidebar from "../../components/Sidebar/Sidebar";
-import Searchbar from "../../components/Searchbar/Searchbar";
+import AppPage from "../../components/AppPage/AppPage";
 import TasksHeader from "../Tasks/TasksHeader/TasksHeader";
 import Button from "../../components/Button/Button";
 
@@ -15,12 +14,7 @@ function Deals() {
     return (
 
 
-        <div className={cs["container"]}>
-
-            <Searchbar />
-
-            <Sidebar />
-
+        <AppPage>
             <div className={cs["content"]}>
                 <TasksHeader>
 
@@ -220,9 +214,8 @@ function Deals() {
                 </div>
             </div>
 
+        </AppPage>
 
-
-        </div>
     );
 }
 

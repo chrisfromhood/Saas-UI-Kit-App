@@ -1,0 +1,11 @@
+.btn-status {
+    height: 2.2rem;
+    width: 8.4rem;      
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.6rem;
+    letter-spacing: 0.2px;
+    color: var(--color-white);
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.8rem 0.5rem;
+  }

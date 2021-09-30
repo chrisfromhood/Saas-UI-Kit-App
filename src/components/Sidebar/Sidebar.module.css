@@ -62,29 +62,30 @@
       flex-direction: column;
       justify-content: center;
       border-bottom: 1px solid var(--color-neutral-divider);
-  
-      /* .side-option_selected span {
-        color: var(--color-accent-blue) !important;
+
+      a {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        letter-spacing: 0.1px;
+        color: var(--color-dark-blue);
       }
-  
-      .side-option_selected img {
-        fill: var(--color-accent-blue) !important;
-      } */
 
       a:link,
       a:visited {
         outline:none;
         text-decoration: none;
-        color: var(--color-dark-blue);
       }
   
-
-      a:hover,
-      a:active {
+      side-option_icon,a:hover,
+      side-option_icon,a:active {
         color: var(--color-accent-blue) !important;
         fill: var(--color-accent-blue) !important;
       }
-  
+
       .side-status {
         display: flex;
         flex-direction: column;
@@ -93,25 +94,28 @@
         width: 100%;
         margin: 1rem 2.4rem 0 6rem;
 
-  
-        .side-status_item {
-          span{
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1.3rem;
-            line-height: 2rem;
-            letter-spacing: 0.1px;
-            color: var(--color-dark-blue);
-            margin-bottom: 0.8rem;
-          }
-  
-          img {
-            width: 0.8rem;
-            height: 0.8rem;
-            margin-right: 0.8rem;
-          }
+        .side-status_item a {
+          font-weight: 400;
+          margin-bottom: 0.8rem;
+        }
 
+      a:link,
+      a:visited {
+        outline:none;
+        text-decoration: none;
+      }
+  
+      a:hover,
+      a:active {
+        color: var(--color-accent-blue) !important;
+        fill: var(--color-accent-blue) !important;
+      }
+
+
+        .side-status_icon {
+          width: 0.8rem;
+          height: 0.8rem;
+          margin-right: 0.8rem;
         }
       }
       .side-option_item {
@@ -119,22 +123,12 @@
         flex-wrap: wrap;
         align-items: center;
         margin-bottom: 2rem;
-  
-        img {
-          height: 1.5rem;
-          width: 1.5rem;
+
+        .side-options_icon {
+          height: 2rem;
+          width: 2rem;
           margin-left: 2.65rem;
           margin-right: 1.65rem;
-        }
-  
-        span {
-          font-family: Poppins;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 1.3rem;
-          line-height: 2rem;
-          letter-spacing: 0.1px;
-          color: var(--color-dark-blue);
         }
       }
     }
