@@ -28,7 +28,10 @@ function Deals() {
 
                     </div>
 
-                    <Button></Button>
+                    {/* <Button>Create deal</Button> */}
+                    <button>
+                        <a href="#">Create deal</a>
+                    </button>
 
                 </TasksHeader>
 

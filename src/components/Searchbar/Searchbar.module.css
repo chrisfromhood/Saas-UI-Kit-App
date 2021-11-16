@@ -27,6 +27,8 @@
       }
   
       .search__button {
+        display: flex;
+        align-items: center;
         background-color: var(--color-white);
         border: none;
         width: 2rem;

@@ -1,0 +1,68 @@
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px/16px = 62.5% -> 1rem = 10px */
+  }
+  
+  body {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  h1 {
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2rem;
+      line-height: 3rem;
+      letter-spacing: 0.1px;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.1px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.1px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link, 
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:link:active, 
+  a:visited:active {
+    color: red;
+  }
+
+  button {
+    padding: 1.1rem 1.4rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+  }

@@ -73,7 +73,7 @@ function Profile() {
                         <div className={cs["confirm-new"]}>
                             <input className={cs["password"]} type="text" placeholder="Confirm new password"></input>
                         </div>
-                        <Button />
+                        <button className={cs["btn-secondary__disabled"]}>Change password</button>
                     </div>
 
                 </div>
