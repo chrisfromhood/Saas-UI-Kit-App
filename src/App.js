@@ -3,14 +3,16 @@ import Homepage from "./pages/Homepage/Homepage";
 import Tasks from "./pages/Tasks/Tasks";
 import Deals from "./pages/Deals/Deals";
 import Profile from "./pages/Profile/Profile";
-import Settings from "./pages/Settings/Settings";
+import AccountSettings from "./pages/Settings/AccountSettings/AccountSettings";
+import NotificationsSettings from "./pages/Settings/NotificationsSettings/NotificationsSettings";
 
 // import cs from "./App.module.css";
 
 function App() {
   return (
     <Switch>
-      <Route path="/settings" exact component={Settings} />
+      <Route path="/settings-account" exact component={AccountSettings} />
+      <Route path="/settings-notifications" exact component={NotificationsSettings} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/deals" exact component={Deals} />
       <Route path="/profile" exact component={Profile} />

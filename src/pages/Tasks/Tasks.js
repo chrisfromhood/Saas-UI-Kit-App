@@ -27,7 +27,7 @@ function Tasks() {
                         </div>
                     </div>
 
-                    <Button className={cs["button-mg_right"]}></Button>
+                    <Button>Create task</Button>
 
                 </TasksHeader>
 

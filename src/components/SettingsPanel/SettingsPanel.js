@@ -14,35 +14,35 @@ function SettingsPanel() {
             <div className={cs["settings-bar_item"]}>
                 <img src={accountIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
                 <div className={cs["settings-bar_wrapper"]}>
-                    <a href="#" className={cs["settings-bar_label"]}>Account</a>
+                    <a href="/" className={cs["settings-bar_label"]}>Account</a>
                     <span className={cs["settings-bar_details"]}>Your account preferences</span>
                 </div>
             </div>
             <div className={cs["settings-bar_item"]}>
                 <img src={notificationIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
                 <div className={cs["settings-bar_wrapper"]}>
-                    <a href="#" className={cs["settings-bar_label"]}>Notifications</a>
+                    <a href="/" className={cs["settings-bar_label"]}>Notifications</a>
                     <span className={cs["settings-bar_details"]}>Your notifications preferences</span>
                 </div>
             </div>
             <div className={cs["settings-bar_item"]}>
                 <img src={intergrationsIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
                 <div className={cs["settings-bar_wrapper"]}>
-                    <a href="#" className={cs["settings-bar_label"]}>Integrations</a>
+                    <a href="/" className={cs["settings-bar_label"]}>Integrations</a>
                     <span className={cs["settings-bar_details"]}>Add or remove integrations</span>
                 </div>
             </div>
             <div className={cs["settings-bar_item"]}>
                 <img src={collegauesIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
                 <div className={cs["settings-bar_wrapper"]}>
-                    <a href="#" className={cs["settings-bar_label"]}>Colleagues</a>
+                    <a href="/" className={cs["settings-bar_label"]}>Colleagues</a>
                     <span className={cs["settings-bar_details"]}>Your colleague preferences</span>
                 </div>
             </div>
             <div className={cs["settings-bar_item"]}>
                 <img src={tagsIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
                 <div className={cs["settings-bar_wrapper"]}>
-                    <a href="#" className={cs["settings-bar_label"]}>Tags</a>
+                    <a href="/" className={cs["settings-bar_label"]}>Tags</a>
                     <span className={cs["settings-bar_details"]}>Add or remove tags</span>
                 </div>
             </div>

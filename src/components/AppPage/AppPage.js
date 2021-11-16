@@ -1,5 +1,5 @@
 import cs from "./AppPage.module.css"
-import Sidebar from "../Sidebars/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 import Searchbar from "../Searchbar/Searchbar";
 
 function AppPage({ children }) {

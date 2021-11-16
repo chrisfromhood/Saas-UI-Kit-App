@@ -28,10 +28,9 @@ function Deals() {
 
                     </div>
 
-                    {/* <Button>Create deal</Button> */}
-                    <button>
-                        <a href="#">Create deal</a>
-                    </button>
+                    <div className={cs["btn-wrapper_save"]}>
+                        <Button className={`${cs["btn-default"]}`}>Create Deal</Button>
+                    </div>
 
                 </TasksHeader>
 

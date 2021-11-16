@@ -11,15 +11,9 @@ import chatIcon from "../../assets/img/icons/chaticon.svg";
 import dealsIcon from "../../assets/img/icons/dealsicon.svg";
 import settingsIcon from "../../assets/img/icons/settingsicon.svg";
 import toggleIcon from "../../assets/img/icons/toggle.svg";
-// STATUS ICON
-import activeIcon from "../../assets/img/circle/active_circle.svg";
-import completedIcon from "../../assets/img/circle/completed_circle.svg";
-import endedIcon from "../../assets/img/circle/ended_circle.svg";
-
 
 function Sidebar() {
     return (
-
 
         <div className={cs["sidebar"]}>
             <div className={cs["side-logo"]}>
@@ -36,56 +30,110 @@ function Sidebar() {
                 </div>
             </div>
 
-            <nav className={cs["side-options"]}>
-                <div className={cs["side-option_item"]}>
-                    <img src={dashboardIcon} alt="Dashboard Icon" className={cs["side-options_icon"]} />
-                    <a href="#">Dashboard</a>
-                </div>
+            {/*!--- .side-options ---  */}
+            <div className={cs["side-options"]}>
 
-                <div className={cs["side-option_item"]}>
-                    <img src={tasksIcon} alt="Tasks Icon" className={cs["side-options_icon"]} />
-                    <a href="#">Tasks</a>
+                <li className={cs["side-options_item"]}>
+                    <a className={cs["side-options_btn"]} href="#dashboard">
+                        <img src={dashboardIcon} alt="Dashboard Icon" className={cs["side-options_icon"]} />
+                        Dashboard</a>
+                </li>
+
+                <li className={cs["side-options_item"]} id="tasks" href="http://localhost:3000/Tasks#tasks">
+                    <a className={cs["side-options_btn"]} href="#tasks">
+                        <img src={tasksIcon} alt="Tasks Icon" className={cs["side-options_icon"]} />
+                        Tasks</a>
 
                     <div className={cs["side-status"]}>
-                        <div className={cs["side-status_item"]}>
-                            <img src={activeIcon} alt="Active Status Icon" className={cs["side-status_icon"]} />
-                            <a href="#">Active</a>
-                        </div>
-                        <div className={cs["side-status_item"]}>
-                            <img src={completedIcon} alt="Completed Status Icon" className={cs["side-status_icon"]} />
-                            <a href="#">Completed</a>
-                        </div>
-                        <div className={cs["side-status_item"]}>
-                            <img src={endedIcon} alt="Ended Status Icon" className={cs["side-status_icon"]} />
-                            <a href="#">Ended</a>
-                        </div>
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["yellow_circle"]}`}></div>
+                            Active
+                        </a>
+
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["green_circle"]}`}></div>
+                            Completed
+                        </a>
+
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["red_circle"]}`}></div>
+                            Ended
+                        </a>
+
                     </div>
-                </div>
+                </li>
 
-                <div className={cs["side-option_item"]}>
-                    <img src={emailIcon} alt="Email Icon" className={cs["side-options_icon"]} />
-                    <a href="#">Email</a>
-                </div>
+                <li className={cs["side-options_item"]} id="emails">
+                    <a className={cs["side-options_btn"]} href="#emails">
+                        <img src={emailIcon} alt="Email Icon" className={cs["side-options_icon"]} />
+                        Email</a>
 
-                <div className={cs["side-option_item"]}>
-                    <img src={contactsIcon} alt="Contacts Icon" className={cs["side-options_icon"]} />
-                    <a href="#">Contacts</a>
-                </div>
+                    <div className={cs["side-status"]}>
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["yellow_circle"]}`}></div>
+                            Draft
+                        </a>
 
-                <div className={cs["side-option_item"]}>
-                    <img src={chatIcon} alt="Chat Icon" className={cs["side-options_icon"]} />
-                    <a href="#">Chat</a>
-                </div>
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["purple_circle"]}`}></div>
+                            Scheduled
+                        </a>
 
-                <div className={cs["side-option_item"]}>
-                    <img src={dealsIcon} alt="Deals Icon" className={cs["side-options_icon"]} />
-                    <a href="#">Deals</a>
-                </div>
-            </nav>{/*!--- .side-options ---  */}
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["green_circle"]}`}></div>
+                            Sent
+                        </a>
+
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["red_circle"]}`}></div>
+                            Archived
+                        </a>
+
+                    </div>
+                </li>
+
+
+
+                <li className={cs["side-options_item"]}>
+                    <a className={cs["side-options_btn"]} href="#contacts">
+                        <img src={contactsIcon} alt="Contacts Icon" className={cs["side-options_icon"]} />
+                        Contacts</a>
+                </li>
+
+                <li className={cs["side-options_item"]}>
+                    <a className={cs["side-options_btn"]} href="#chat">
+                        <img src={chatIcon} alt="Chat Icon" className={cs["side-options_icon"]} />
+                        Chat</a>
+                </li>
+
+                <li className={cs["side-options_item"]} id="deals">
+                    <a className={cs["side-options_btn"]} href="#deals">
+                        <img src={dealsIcon} alt="Deals Icon" className={cs["side-options_icon"]} />
+                        Deals</a>
+
+                    <div className={cs["side-status"]}>
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["yellow_circle"]}`}></div>
+                            Active
+                        </a>
+
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["green_circle"]}`}></div>
+                            Completed
+                        </a>
+
+                        <a href="/" className={cs["side-status_item"]}>
+                            <div className={`${cs["side-status_icon"]} ${cs["red_circle"]}`}></div>
+                            Ended
+                        </a>
+
+                    </div>
+                </li>
+            </div>{/*!--- .side-options ---  */}
 
             <div className={cs["side-option_settings"]}>
                 <img src={settingsIcon} alt="Settings Icon" />
-                <span>Settings</span>
+                <a href="/">Settings</a>
             </div>
             <div className={cs["side-option_toggle"]}>
                 <img src={toggleIcon} alt="Toggle Sidebar Icon" />

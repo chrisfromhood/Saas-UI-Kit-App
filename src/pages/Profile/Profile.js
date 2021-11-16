@@ -1,7 +1,5 @@
 import cs from "./Profile.module.css";
 import AppPage from "../../components/AppPage/AppPage";
-import Button from "../../components/Button/Button";
-
 import avatar from "../../assets/img/users/Avatar.png";
 import edit from "../../assets/img/icons/edit.svg";
 
