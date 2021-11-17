@@ -5,6 +5,7 @@ import Deals from "./pages/Deals/Deals";
 import Profile from "./pages/Profile/Profile";
 import AccountSettings from "./pages/Settings/AccountSettings/AccountSettings";
 import NotificationsSettings from "./pages/Settings/NotificationsSettings/NotificationsSettings";
+import IntegrationsSettings from "./pages/Settings/IntegrationsSettings/IntegrationsSettings";
 
 // import cs from "./App.module.css";
 
@@ -13,10 +14,11 @@ function App() {
     <Switch>
       <Route path="/settings-account" exact component={AccountSettings} />
       <Route path="/settings-notifications" exact component={NotificationsSettings} />
+      <Route path="/settings-integrations" exact component={IntegrationsSettings} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/deals" exact component={Deals} />
       <Route path="/profile" exact component={Profile} />
-      <Route path="/" exact component={Homepage} />
+      <Route path="/homepage" exact component={Homepage} />
       <Redirect to="/" />
     </Switch>
 

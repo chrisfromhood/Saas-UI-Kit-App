@@ -1,5 +1,4 @@
 .content {
-    display: grid;
-    grid-template-columns: 0.2154fr 0.6968fr;
+    display: flex;
     background-color: var(--color-background-gray);  
 }
