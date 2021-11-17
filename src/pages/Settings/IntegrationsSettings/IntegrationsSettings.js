@@ -39,7 +39,22 @@ function IntegrationsSettings() {
                             <input type="text" className={cs["search__input"]} placeholder="Search integrations" />
                         </form>
                     </div>
+                    <div className={cs["your-integrations_wrapper"]}>
+                        <h4>Your integrations</h4>
+                        <div className={cs["your-integrations-card_wrapper"]}>
+                            <div className={cs["your-integrations-card"]}>
+                                <img src="" alt="" />
+                                <h3>Slack</h3>
+                                <p>Slack is a digital workplace that connects you to the people and tools you work with everyday.</p>
+                                <div>
+                                    <button></button>
+                                    <img src="" alt="" />
+                                </div>
 
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>

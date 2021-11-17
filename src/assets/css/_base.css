@@ -43,6 +43,17 @@
     letter-spacing: 0.1px;
   }
 
+  h4 {
+    //styleName: Subtitle 2 - medium 13 (20, 0.1px);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    text-align: left;
+  }
+
   a {
     text-decoration: none;
   }
@@ -65,4 +76,18 @@
     text-align: center;
     font-size: 1.3rem;
     border-radius: 1rem;
+  }
+
+  input {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1px;
+    border-style: hidden;
+  }
+
+  input:focus {
+    outline: none;
   }
