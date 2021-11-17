@@ -8,20 +8,25 @@
         margin: 3.5rem 3rem 19.5rem 0rem;
         background-color: var(--color-white);
 
-        .integrations-header{
+        .integrations-header {
             display: flex;
             justify-content: space-between;
 
             h2 {
+                
                 color: var(--color-neutral-black);
                 padding: 3.2rem 0rem 2.4rem 2.4rem;
                 }
 
             .sort-feature_wrapper {
+
+                p:last-child {
+                    color: lime;
+                  }
+                  
                 .sort-feature_date,
                 .sort-feature_type {
                     display: inline-block;
-            
                     color: var(--color-neutral-gray);
                     cursor: pointer;
                     margin-left: 3.5rem;
