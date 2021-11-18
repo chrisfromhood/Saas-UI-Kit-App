@@ -1,156 +1,82 @@
 .content {
-    display: flex;
-    background-color: var(--color-background-gray); 
- 
-    .integrations-container {       
-        width: 100%;
-        margin: 3.5rem 3rem 19.5rem 0rem;
-        background-color: var(--color-white);
-
-        .integrations-header {
-            display: flex;
-            justify-content: space-between;
-
-            h2 {
-                color: var(--color-neutral-black);
-                padding: 3.2rem 0rem 2.4rem 2.4rem;
+     display: flex;
+     background-color: var(--color-background-gray);
+     .integrations-container {
+         width: 100%;
+         margin: 3.5rem 3rem 19.5rem 0rem;
+         background-color: var(--color-white);
+         .integrations-header-container {
+             border-bottom: 1px solid var(--color-neutral-divider);
+        }
+         .integrations-header {
+             display: flex;
+             justify-content: space-between;
+             h2 {
+                 color: var(--color-neutral-black);
+                 padding: 3.2rem 0rem 2.4rem 2.4rem;
+            }
+             .sort-feature_wrapper {
+                 .sort-feature_date, .sort-feature_type {
+                     display: inline-block;
+                     color: var(--color-neutral-gray);
+                     cursor: pointer;
+                     margin-left: 3.5rem;
+                     margin-top: 5.9rem;
+                     p {
+                         font-weight: normal;
+                         font-size: 1.2rem;
+                         line-height: 1.8rem;
+                         letter-spacing: 0.1px;
+                         span {
+                             margin-left: 0.4rem;
+                             color: var(--color-accent-blue);
+                        }
+                         img {
+                             height: 0.4rem;
+                             width: 0.7rem;
+                             margin-left: 0.6rem;
+                        }
+                         img:hover {
+                             fill: var(--color-accent-blue);
+                        }
+                    }
                 }
-
-            .sort-feature_wrapper {
-
-                .sort-feature_date,
-                .sort-feature_type {
-                    display: inline-block;
-                    color: var(--color-neutral-gray);
-                    cursor: pointer;
-                    margin-left: 3.5rem;
-                    margin-top: 5.9rem;
-            
-                    p {
-                    font-weight: normal;
-                    font-size: 1.2rem;
-                    line-height: 1.8rem;
-                    letter-spacing: 0.1px;
-            
-                    span {
-                        margin-left: 0.4rem;
-                        color: var(--color-accent-blue);
-                    }
-            
-                    img {
-                        height: 0.4rem;
-                        width: 0.7rem;
-                        margin-left: 0.6rem;
-                    }
-            
-                    img:hover {
-                        fill: var(--color-accent-blue);
-                    }
-                    }
-                  
-                  }
-                  .sort-feature_type {
-                    margin-right: 2.4rem;
+                 .sort-feature_type {
+                     margin-right: 2.4rem;
                 }
             }
-            
-    }
-    .searchbar {
-      max-width: 95.7rem;
-      width:100%;
-      margin: 2.1rem 2.4rem 2.4rem;
-      background-color: var(--color-neutral-divider);
-      
-
-          .search {
-          display: flex;
-          width: 100%;
-            
-          input {
-            color: var(--color-gray);
-            padding: 1.1rem 1.6rem 1.1rem 0rem;
-            background-color: var(--color-neutral-divider);
-          }
-
-          .search__button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: none;
-            width: 1.45rem;
-            height: 1.45rem;
-            margin: 1rem 1.1rem 1rem 1.6rem;
-          }
-        }        
-    }
-
-    h4 {
-            margin-left: 2.4rem;
-            opacity: 50%;
         }
-
-    .your-integrations_wrapper {
-        display: flex;
-        justify-content: space-between;
-        
-        .your-integrations-card {
-            display: flex;
-            flex-direction: column;
-            max-width: 24.3rem;
-            /* max-height: 26.4rem; */
-            flex: 0 1 31%;
-            margin: 1.6rem 2.4rem 4rem 2.4rem;
-            background-color: var (--color-white);
-            box-shadow: 0px 2px 10px 0px #00000014;
-
-
-            .your-integr-logo {
-                width: 10rem;
-                height: 100%;
-                align-self: center;
-                margin: 4.2rem 7rem 4.9rem;
-            }
-
-            h3 {
-                margin: 0 1.6rem;
-            }
-
-            p {
-               margin: .5rem 1.6rem 2.5rem;
-               font-size: 1.2;
-               font-weight: 400;
-               line-height: 1.8rem;
-               letter-spacing: 0.1px;
-               color: var(--color-black);
-               opacity: 50%;
-            }
-
-
-            .your-integr-card_footer {
-                display: flex;
-                justify-content: space-between;
-                margin: 1.6rem;
-
-
-                  .your-integr-info_btn {
-                    font-size: 1.3rem;
-                    font-weight: 600;
-                    line-height: 2rem;
-                    letter-spacing: 0.1px;
-                    color: var(--color-gray-icon);
-                  }
-
-                  .delete-icon {
-                      width: 2rem;
-                      height: 2rem;
-                  }
+         .searchbar {
+             max-width: 95.7rem;
+             width:100%;
+             margin: 2.1rem 2.4rem 2.4rem;
+             background-color: var(--color-neutral-divider);
+             .search {
+                 display: flex;
+                 width: 100%;
+                 input {
+                     color: var(--color-gray);
+                     padding: 1.1rem 1.6rem 1.1rem 0rem;
+                     background-color: var(--color-neutral-divider);
+                }
+                 .search__button {
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     border: none;
+                     width: 1.45rem;
+                     height: 1.45rem;
+                     margin: 1rem 1.1rem 1rem 1.6rem;
+                }
             }
         }
-
-
-    }
-
-    
-
+         h4 {
+             margin: 2.4rem 0rem 0rem 2.4rem;
+             opacity: 50%;
+        }
+         .your-integrations_wrapper {
+             display: flex;
+             flex-wrap: wrap;
+        }
     }
 }
