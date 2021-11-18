@@ -6,6 +6,10 @@ import SettingsPanel from "../../../components/SettingsPanel/SettingsPanel";
 import arrowIcon from "../../../assets/img/icons/arrow.svg"
 import searchIcon from "../../../assets/img/icons/search.svg";
 
+// CARDS LOGOS
+import slackLogo from "../../../assets/img/logos/Slack_RGB.svg"
+import deleteIcon from "../../../assets/img/icons/baseline-delete.svg";
+
 function IntegrationsSettings() {
     return (
 
@@ -39,16 +43,16 @@ function IntegrationsSettings() {
                             <input type="text" className={cs["search__input"]} placeholder="Search integrations" />
                         </form>
                     </div>
+                    <h4>Your integrations</h4>
                     <div className={cs["your-integrations_wrapper"]}>
-                        <h4>Your integrations</h4>
                         <div className={cs["your-integrations-card_wrapper"]}>
                             <div className={cs["your-integrations-card"]}>
-                                <img src="" alt="" />
+                                <img className={cs["your-integr-logo"]} src={slackLogo} alt="Slack logo" />
                                 <h3>Slack</h3>
                                 <p>Slack is a digital workplace that connects you to the people and tools you work with everyday.</p>
-                                <div>
-                                    <button></button>
-                                    <img src="" alt="" />
+                                <div className={cs["your-integr-card_footer"]}>
+                                    <span className={cs["your-integr-info_btn"]}>Conected</span>
+                                    <img className={cs["delete-icon"]} src={deleteIcon} alt="Delete Icon" />
                                 </div>
 
                             </div>
