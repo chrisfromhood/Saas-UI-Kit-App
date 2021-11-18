@@ -1,27 +1,31 @@
 .content {
      display: flex;
      background-color: var(--color-background-gray);
+
      .integrations-container {
          width: 100%;
          margin: 3.5rem 3rem 19.5rem 0rem;
          background-color: var(--color-white);
-         .integrations-header-container {
+
+         .integrations-header-wrapper {
              border-bottom: 1px solid var(--color-neutral-divider);
+             padding: 3.2rem 2.4rem 2.4rem;
+             margin-bottom: 2.4rem;
+             
         }
          .integrations-header {
              display: flex;
              justify-content: space-between;
              h2 {
                  color: var(--color-neutral-black);
-                 padding: 3.2rem 0rem 2.4rem 2.4rem;
             }
              .sort-feature_wrapper {
-                 .sort-feature_date, .sort-feature_type {
+                 padding-top: 0.7rem;
+                 .sort-feature_category, .sort-feature_filter {
                      display: inline-block;
                      color: var(--color-neutral-gray);
                      cursor: pointer;
-                     margin-left: 3.5rem;
-                     margin-top: 5.9rem;
+                     margin-left: 3.2rem;
                      p {
                          font-weight: normal;
                          font-size: 1.2rem;
@@ -41,22 +45,18 @@
                         }
                     }
                 }
-                 .sort-feature_type {
-                     margin-right: 2.4rem;
-                }
             }
         }
          .searchbar {
-             max-width: 95.7rem;
              width:100%;
-             margin: 2.1rem 2.4rem 2.4rem;
+             margin-top: 2.1rem;
              background-color: var(--color-neutral-divider);
              .search {
                  display: flex;
                  width: 100%;
                  input {
                      color: var(--color-gray);
-                     padding: 1.1rem 1.6rem 1.1rem 0rem;
+                     /* padding: 1.1rem 1.6rem 1.1rem 0rem; */
                      background-color: var(--color-neutral-divider);
                 }
                  .search__button {
@@ -71,12 +71,13 @@
             }
         }
          h4 {
-             margin: 2.4rem 0rem 0rem 2.4rem;
+             margin-left: 2.4rem;
              opacity: 50%;
         }
          .your-integrations_wrapper {
              display: flex;
              flex-wrap: wrap;
+             margin: 1.6rem auto 4rem auto;
         }
     }
 }

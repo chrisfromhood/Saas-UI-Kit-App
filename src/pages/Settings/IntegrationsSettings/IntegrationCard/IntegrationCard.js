@@ -10,7 +10,9 @@ function IntegrationCard({ logo, title, description, connected }) {
 
     <div className={cs["your-integrations-card_wrapper"]}>
       <div className={cs["your-integrations-card"]}>
-        <img className={cs["your-integr-logo"]} src={logo} alt="Slack logo" />
+        <div className={cs["your-integr-logo_wrapper"]}>
+          <img className={cs["your-integr-logo"]} src={logo} alt="Slack logo" />
+        </div>
         <h3>{title}</h3>
         <p>{description}</p>
         <div className={cs["your-integr-card_footer"]}>
@@ -18,6 +20,7 @@ function IntegrationCard({ logo, title, description, connected }) {
           <img className={cs["delete-icon"]} src={deleteIcon} alt="Delete Icon" />
         </div>
       </div>
+
     </div>
   );
 }
