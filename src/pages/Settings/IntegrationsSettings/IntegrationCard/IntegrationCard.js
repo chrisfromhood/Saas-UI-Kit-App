@@ -4,7 +4,6 @@ import cs from "./IntegrationCard.module.css";
 import deleteIcon from "../../../../assets/img/icons/baseline-delete.svg"
 
 
-
 function IntegrationCard({ logo, title, description, connected }) {
   return (
 
@@ -16,7 +15,7 @@ function IntegrationCard({ logo, title, description, connected }) {
         <h3>{title}</h3>
         <p>{description}</p>
         <div className={cs["your-integr-card_footer"]}>
-          <span className={cs["your-integr-info_btn"]}>{connected ? "Connected" : "Connect"}</span>
+          <span className={cs["btn_tertiary"]}>{connected ? "Connected" : "Connect"}</span>
           <img className={cs["delete-icon"]} src={deleteIcon} alt="Delete Icon" />
         </div>
       </div>

@@ -15,7 +15,7 @@ import mcLogo from "../../../assets/img/logos/MailChimp_2018.svg"
 import wpLogo from "../../../assets/img/logos/Wordpress-Logo.svg"
 import sfLogo from "../../../assets/img/logos/Salesforce.svg"
 
-import deleteIcon from "../../../assets/img/icons/baseline-delete.svg";
+
 
 
 

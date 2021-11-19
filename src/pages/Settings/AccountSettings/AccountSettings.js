@@ -2,7 +2,7 @@
 import cs from "./AccountSettings.module.css";
 import AppPage from "../../../components/AppPage/AppPage";
 import SettingsPanel from "../../../components/SettingsPanel/SettingsPanel";
-import Account from "../../../components/Account/Account";
+import Account from "./Account/Account";
 
 
 function AccountSettings() {
