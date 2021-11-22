@@ -7,7 +7,7 @@ import AccountSettings from "./pages/Settings/AccountSettings/AccountSettings";
 import NotificationsSettings from "./pages/Settings/NotificationsSettings/NotificationsSettings";
 import IntegrationsSettings from "./pages/Settings/IntegrationsSettings/IntegrationsSettings";
 import ColleaguesSettings from "./pages/Settings/ColleaguesSettings/ColleaguesSettings";
-
+import TagsSettings from "./pages/Settings/TagsSettings/TagsSettings";
 // import cs from "./App.module.css";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <Route path="/settings-notifications" exact component={NotificationsSettings} />
       <Route path="/settings-integrations" exact component={IntegrationsSettings} />
       <Route path="/settings-colleagues" exact component={ColleaguesSettings} />
+      <Route path="/settings-tags" exact component={TagsSettings} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/deals" exact component={Deals} />
       <Route path="/profile" exact component={Profile} />

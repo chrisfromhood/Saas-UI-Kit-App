@@ -1,0 +1,73 @@
+.content {
+     display: flex;
+     background-color: var(--color-background-gray);
+
+     .integrations-container {
+         width: 100%;
+         margin: 3.5rem 3rem 19.5rem 0rem;
+         background-color: var(--color-white);
+
+         .integrations-header-wrapper {
+             border-bottom: 1px solid var(--color-neutral-divider);
+             padding: 3.2rem 2.4rem 2.4rem;
+             
+        }
+         .header-title_wrapper {
+             display: flex;
+             justify-content: space-between;
+             h2 {
+                 color: var(--color-neutral-black);
+            }
+             .header-btn_wrapper {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 .btn_tertiary, span {
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    line-height: 2rem;
+                    letter-spacing: 0.1px;
+                    color: var(--color-accent-blue);
+                 }
+                span:last-child {
+                    display: flex;
+                    align-items: center;
+                    width: 1.167rem;
+                    height: 1.167rem;
+                    margin-left: .817rem;
+                }
+
+            }
+        }
+         .searchbar {
+             width:100%;
+             margin-top: 2.1rem;
+             background-color: var(--color-neutral-divider);
+             .search {
+                 display: flex;
+                 width: 100%;
+                 input {
+                     color: var(--color-gray);
+                     /* padding: 1.1rem 1.6rem 1.1rem 0rem; */
+                     background-color: var(--color-neutral-divider);
+                }
+                 .search__button {
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     border: none;
+                     width: 1.45rem;
+                     height: 1.45rem;
+                     margin: 1rem 1.1rem 1rem 1.6rem;
+                }
+            }
+        }
+        .btn-wrapper_save {
+        display: flex;
+        justify-content: flex-end;
+        margin: 6.4rem 2.4rem 3.2rem 0;
+    }
+        
+    }
+
+}
