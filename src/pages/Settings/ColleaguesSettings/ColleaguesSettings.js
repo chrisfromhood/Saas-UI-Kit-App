@@ -54,10 +54,14 @@ function ColleaguesSettings() {
                         <ColleaguesRow
                             userLogo={rebecca}
                             userName="Rebecca Moore"
+                            className={`admin`}
+                            statusTitle="Admin"
                         />
                         <ColleaguesRow
                             userLogo={nicci}
                             userName="Nicci Troiani"
+                            className={`edit`}
+                            statusTitle="Edit"
                         />
 
                         <ColleaguesRow
