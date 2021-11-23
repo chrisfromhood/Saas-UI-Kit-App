@@ -54,29 +54,30 @@ function ColleaguesSettings() {
                         <ColleaguesRow
                             userLogo={rebecca}
                             userName="Rebecca Moore"
-                            className={`admin`}
-                            statusTitle="Admin"
+                            admin
                         />
                         <ColleaguesRow
                             userLogo={nicci}
                             userName="Nicci Troiani"
-                            className={`edit`}
-                            statusTitle="Edit"
+                            edit
                         />
 
                         <ColleaguesRow
                             userLogo={franz}
                             userName="Franz Ferdinand"
+                            read
                         />
 
                         <ColleaguesRow
                             userLogo={john}
                             userName="John Smith"
+                            edit
                         />
 
                         <ColleaguesRow
                             userLogo={nicol}
                             userName="Nikol Ricci"
+
                         />
 
                         <ColleaguesRow
@@ -87,11 +88,13 @@ function ColleaguesSettings() {
                         <ColleaguesRow
                             userLogo={george}
                             userName="George Fields"
+                            read
                         />
 
                         <ColleaguesRow
                             userLogo={judith}
                             userName="Judith Williams"
+                            read
                         />
 
 

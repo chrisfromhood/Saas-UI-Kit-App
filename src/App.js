@@ -8,6 +8,7 @@ import NotificationsSettings from "./pages/Settings/NotificationsSettings/Notifi
 import IntegrationsSettings from "./pages/Settings/IntegrationsSettings/IntegrationsSettings";
 import ColleaguesSettings from "./pages/Settings/ColleaguesSettings/ColleaguesSettings";
 import TagsSettings from "./pages/Settings/TagsSettings/TagsSettings";
+import Documentation from "./pages/Documentation/Documentation";
 // import cs from "./App.module.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/deals" exact component={Deals} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
+      <Route path="/documentation" exact component={Documentation} />
       <Redirect to="/" />
     </Switch>
 

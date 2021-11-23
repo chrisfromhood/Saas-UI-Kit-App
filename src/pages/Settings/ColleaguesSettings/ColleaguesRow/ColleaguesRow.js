@@ -1,7 +1,7 @@
 import cs from "./ColleaguesRow.module.css";
 import ArrowDown from "../../../../assets/img/icons/arrow_down.svg";
 
-function ColleaguesRow({ userLogo, userName, className, statusTitle, ...other }) {
+function ColleaguesRow({ userLogo, userName, admin = false, edit = false, read = false }) {
     return (
 
         <div className={cs["row-wrapper"]}>
@@ -14,8 +14,20 @@ function ColleaguesRow({ userLogo, userName, className, statusTitle, ...other })
                 </div>
 
                 <div className={cs["row-user_status_wrapper"]}>
-                    <div className={`${cs["status_select"]} ${className}`}  {...other}>
-                        <span className={cs["status_title"]}>{statusTitle}</span>
+                    <div
+                        className={`
+                            ${cs["status_select"]} 
+                            ${admin ? cs["admin"] : ""}
+                            ${edit ? cs["edit"] : ""}
+                            ${read ? cs["read"] : ""}
+                        `}
+                    >
+
+                        <span className={cs["status_title"]}>
+                            {admin ? "Admin" : ""}
+                            {edit ? "Edit" : ""}
+                            {read ? "Read" : ""}
+                        </span>
                         <img className={cs["arrow-down-icon"]} src={ArrowDown} alt="Arrow Down Icon" />
                     </div>
                 </div>
