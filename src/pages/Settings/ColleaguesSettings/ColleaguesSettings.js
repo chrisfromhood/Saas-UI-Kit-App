@@ -2,6 +2,7 @@ import cs from "./ColleaguesSettings.module.css";
 import AppPage from "../../../components/AppPage/AppPage";
 import SettingsPanel from "../../../components/SettingsPanel/SettingsPanel";
 import ColleaguesRow from "./ColleaguesRow/ColleaguesRow";
+import ColleaguesRowOpen from "./ColleaguesRowOpen/ColleaguesRowOpen";
 
 
 // HEADER
@@ -74,10 +75,9 @@ function ColleaguesSettings() {
                             edit
                         />
 
-                        <ColleaguesRow
+                        <ColleaguesRowOpen
                             userLogo={nicol}
                             userName="Nikol Ricci"
-
                         />
 
                         <ColleaguesRow
