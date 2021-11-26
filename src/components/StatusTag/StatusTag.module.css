@@ -1,11 +1,31 @@
-.btn-status {
-    height: 2.2rem;
-    width: 8.4rem;      
-    text-align: center;
-    font-size: 11px;
-    line-height: 1.6rem;
-    letter-spacing: 0.2px;
-    color: var(--color-white);
-    border-radius: 0.4rem;
-    padding: 0.3rem 0.8rem 0.5rem;
-  }
+.row-user_status_wrapper {        
+  margin: 2.2rem 2.4rem;
+    .status_select {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 8.4rem;
+      height: 2.2rem;
+      border-radius: .4rem;
+    }
+    .status_title {
+      color:var(--color-white);
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      letter-spacing: 0.2px;
+    }
+    .archived {
+      background-color: var(--color-red);
+    }
+    .draft {
+      background-color: var(--color-yellow);
+    }
+    .sent {
+      background-color: var(--color-green);
+    }
+
+    .scheduled {
+      background-color: var(--color-purple);
+    }
+}
