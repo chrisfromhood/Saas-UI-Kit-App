@@ -1,0 +1,19 @@
+.email-feature {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.4rem;
+  
+    span {
+      font-weight: normal;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      letter-spacing: 0.1px;
+      color: var(--color-neutral-gray);
+      
+    }
+    img {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-left: 0.4rem;
+    }
+}

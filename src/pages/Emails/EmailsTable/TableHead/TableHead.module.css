@@ -1,0 +1,56 @@
+.table-head {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+.table-row {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #EBEFF2;
+  
+  
+  .head-cell {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    color: var(--color-dark-blue);
+    opacity: 0.5;
+    padding: 1.4rem 0rem;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0.2rem 0rem 0.2rem 2.4rem;
+    input {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+
+  .status { 
+    width: 11%;
+    padding-left: 2.4rem;
+  }
+
+  .subject { 
+    width: 65%;
+    padding-left: 2.4rem;
+  }
+
+  .last-updated { 
+    width: 14%;
+    padding-left: 2.4rem; 
+  }
+
+  .open-rate { 
+    padding-left: 3.9rem;
+    padding-right: 2.4rem;
+    width: 9%;
+  }
+}

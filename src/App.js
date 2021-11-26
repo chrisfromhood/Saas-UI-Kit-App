@@ -2,6 +2,7 @@ import { Switch, Redirect, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage/Homepage";
 import Tasks from "./pages/Tasks/Tasks";
 import Deals from "./pages/Deals/Deals";
+import Emails from "./pages/Emails/Emails";
 import Profile from "./pages/Profile/Profile";
 import AccountSettings from "./pages/Settings/AccountSettings/AccountSettings";
 import NotificationsSettings from "./pages/Settings/NotificationsSettings/NotificationsSettings";
@@ -21,6 +22,7 @@ function App() {
       <Route path="/settings-tags" exact component={TagsSettings} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/deals" exact component={Deals} />
+      <Route path="/emails" exact component={Emails} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
       <Route path="/documentation" exact component={Documentation} />
