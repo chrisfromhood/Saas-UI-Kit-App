@@ -12,6 +12,7 @@ import ColleaguesSettings from "./pages/Settings/ColleaguesSettings/ColleaguesSe
 import TagsSettings from "./pages/Settings/TagsSettings/TagsSettings";
 import Documentation from "./pages/Documentation/Documentation";
 import TableChecked from "./pages/Emails/EmailsChecked/TableChecked/TableChecked";
+import EmailsCreateTask from "./pages/Emails/EmailsCreateTask/EmailsCreateTask";
 // import cs from "./App.module.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Route path="/deals" exact component={Deals} />
       <Route path="/emails" exact component={Emails} />
       <Route path="/emails-checked" exact component={TableChecked} />
+      <Route path="/emails-create-task" exact component={EmailsCreateTask} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
       <Route path="/documentation" exact component={Documentation} />

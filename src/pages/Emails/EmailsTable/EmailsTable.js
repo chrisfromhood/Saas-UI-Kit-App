@@ -8,8 +8,8 @@ import TableChecked from "../EmailsChecked/TableChecked/TableChecked";
 function EmailsTable() {
   return (
     <div className={cs["general-table"]}>
-      <TableHead></TableHead>
-      {/* <TableChecked></TableChecked> */}
+      {/* <TableHead></TableHead> */}
+      <TableChecked></TableChecked>
       <TableRow
         draft
         subject="September Content Offer"
