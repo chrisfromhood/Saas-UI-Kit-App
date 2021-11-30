@@ -1,0 +1,14 @@
+.content {
+    background-color: var(--color-background-gray);
+
+    .btn-wrapper_save {
+      display: flex;
+
+      .email-feature_wrapper {
+        display: flex;
+        align-self: flex-end;
+        margin-right: 5.6rem;     
+      }
+    }
+
+}

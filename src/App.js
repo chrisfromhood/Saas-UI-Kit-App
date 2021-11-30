@@ -3,6 +3,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import Tasks from "./pages/Tasks/Tasks";
 import Deals from "./pages/Deals/Deals";
 import Emails from "./pages/Emails/Emails";
+// import EmailsChecked from "./pages/Emails/EmailsChecked/EmailsChecked";
 import Profile from "./pages/Profile/Profile";
 import AccountSettings from "./pages/Settings/AccountSettings/AccountSettings";
 import NotificationsSettings from "./pages/Settings/NotificationsSettings/NotificationsSettings";
@@ -10,6 +11,7 @@ import IntegrationsSettings from "./pages/Settings/IntegrationsSettings/Integrat
 import ColleaguesSettings from "./pages/Settings/ColleaguesSettings/ColleaguesSettings";
 import TagsSettings from "./pages/Settings/TagsSettings/TagsSettings";
 import Documentation from "./pages/Documentation/Documentation";
+import TableChecked from "./pages/Emails/EmailsChecked/TableChecked/TableChecked";
 // import cs from "./App.module.css";
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/deals" exact component={Deals} />
       <Route path="/emails" exact component={Emails} />
+      <Route path="/emails-checked" exact component={TableChecked} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
       <Route path="/documentation" exact component={Documentation} />
