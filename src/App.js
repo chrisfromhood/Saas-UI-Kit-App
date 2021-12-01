@@ -14,6 +14,7 @@ import Documentation from "./pages/Documentation/Documentation";
 import TableChecked from "./components/TableChecked/TableChecked";
 import CreateTask from "./pages/Tasks/CreateTask/CreateTask";
 import EmailsView from "./pages/Emails/EmailsView/EmailsView";
+import EmailRecepients from "./pages/Emails/EmailsView/EmailRecepients/EmailRecepients";
 // import cs from "./App.module.css";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route path="/emails" exact component={Emails} />
       <Route path="/emails-checked" exact component={TableChecked} />
       <Route path="/emails-view" exact component={EmailsView} />
+      <Route path="/emails-recepients" exact component={EmailRecepients} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
       <Route path="/documentation" exact component={Documentation} />
