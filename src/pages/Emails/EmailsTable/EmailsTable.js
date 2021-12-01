@@ -3,13 +3,13 @@ import React from "react";
 import cs from "./EmailsTable.module.css";
 import TableHead from "./TableHead/TableHead";
 import TableRow from "./TableRow/TableRow";
-import TableChecked from "../EmailsChecked/TableChecked/TableChecked";
+import TableChecked from "../../../components/TableChecked/TableChecked";
 
 function EmailsTable() {
   return (
     <div className={cs["general-table"]}>
-      {/* <TableHead></TableHead> */}
-      <TableChecked></TableChecked>
+      <TableHead></TableHead>
+      {/* <TableChecked></TableChecked> */}
       <TableRow
         draft
         subject="September Content Offer"

@@ -1,11 +1,11 @@
-import cs from "./EmailsCreateTask.module.css";
+import cs from "./CreateTask.module.css";
 import Button from "../../../components/Button/Button";
 import closeIcon from "../../../assets/img/icons/close.svg";
 import arrowDown from "../../../assets/img/icons/arrow_down.svg";
 import lindsey from "../../../assets/img/users/lindseyStroud.jpg";
 
 
-function EmailsCreateTask() {
+function CreateTask() {
   return (
     <div className={cs["create-task_container"]}>
 
@@ -67,4 +67,4 @@ function EmailsCreateTask() {
   );
 }
 
-export default EmailsCreateTask;
+export default CreateTask;

@@ -11,8 +11,9 @@ import IntegrationsSettings from "./pages/Settings/IntegrationsSettings/Integrat
 import ColleaguesSettings from "./pages/Settings/ColleaguesSettings/ColleaguesSettings";
 import TagsSettings from "./pages/Settings/TagsSettings/TagsSettings";
 import Documentation from "./pages/Documentation/Documentation";
-import TableChecked from "./pages/Emails/EmailsChecked/TableChecked/TableChecked";
-import EmailsCreateTask from "./pages/Emails/EmailsCreateTask/EmailsCreateTask";
+import TableChecked from "./components/TableChecked/TableChecked";
+import CreateTask from "./pages/Tasks/CreateTask/CreateTask";
+import EmailsView from "./pages/Emails/EmailsView/EmailsView";
 // import cs from "./App.module.css";
 
 function App() {
@@ -24,10 +25,11 @@ function App() {
       <Route path="/settings-colleagues" exact component={ColleaguesSettings} />
       <Route path="/settings-tags" exact component={TagsSettings} />
       <Route path="/tasks" exact component={Tasks} />
+      <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />
       <Route path="/emails" exact component={Emails} />
       <Route path="/emails-checked" exact component={TableChecked} />
-      <Route path="/emails-create-task" exact component={EmailsCreateTask} />
+      <Route path="/emails-view" exact component={EmailsView} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
       <Route path="/documentation" exact component={Documentation} />

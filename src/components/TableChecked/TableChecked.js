@@ -1,6 +1,6 @@
 import cs from "./TableChecked.module.css";
-import editIcon from "../../../../assets/img/icons/edit-icon.svg";
-import binIcon from "../../../../assets/img/icons/baseline-delete.svg";
+import editIcon from "../../assets/img/icons/edit-icon.svg";
+import binIcon from "../../assets/img/icons/baseline-delete.svg";
 
 function TableChecked() {
   return (
