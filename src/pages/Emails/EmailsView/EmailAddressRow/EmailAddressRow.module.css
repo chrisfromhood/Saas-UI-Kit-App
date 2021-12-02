@@ -1,9 +1,39 @@
 .email-address_row {
-  margin: 1.6rem;
-  color: var(--color-table-gray);
-  font-weight: 400;
-  font-size: 1.3rem;
-  line-height: 2rem;
-  letter-spacing: 0.1px;
+  position: relative;
+  display: flex;
   border-bottom: .1rem solid var(--color-neutral-divider);
+  .email-address_wrapper {
+    margin: 1.6rem 0rem;
+    margin-left: 1.6rem;
+    
+    .email-address {
+      color: var(--color-table-gray);
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+    }
+  }
+  .row-icons_wrapper {
+    display: none
+  }
+}
+.email-address_row:hover {
+  cursor: pointer;
+  .row-icons_wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 4.7rem;
+    padding: 1.6rem 1.6rem;
+    background-color: var(--color-white);
+    border-left: .1rem solid var(--color-neutral-divider);
+    .edit_icon {
+      margin-right: 1rem;
+    }
+  }
+
 }

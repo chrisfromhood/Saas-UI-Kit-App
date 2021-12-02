@@ -12,7 +12,7 @@ function EmailViewHeader() {
         <span>Back to mails</span>
       </div>
       <div className={cs["btn-wrapper"]}>
-        <Button className={`${cs["btn-default"]}`}>Create mail</Button>
+        <Button className={`${cs["btn-default"]}`}>Send again</Button>
       </div>
 
     </div>

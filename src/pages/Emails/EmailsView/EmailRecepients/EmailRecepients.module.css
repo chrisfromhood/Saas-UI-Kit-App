@@ -1,5 +1,6 @@
 .email-recepients {
-  width: 26rem;
+  background-color: var(--color-white);
+  margin-left: 3rem;
 
   .email-recepients_header {
     display: flex;
@@ -11,7 +12,5 @@
       margin-bottom: 1.6rem;
     }
 
-  }
-
-
+  } 
 }
