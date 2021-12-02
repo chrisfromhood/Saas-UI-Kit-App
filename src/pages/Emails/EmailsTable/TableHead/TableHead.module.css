@@ -1,61 +1,58 @@
 .table-head {
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: var(--color-white);
-  min-height: 4.8rem;
-}
-
-.table-row {
-  width: 100%;
-  display: flex;
-  background-color: var(--color-white);
   border-bottom: 0.1rem solid #EBEFF2;
+  min-height: 4.8rem;
   
-  
-  
-  .head-cell {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    letter-spacing: 0.1px;
-    color: var(--color-dark-blue);
-    opacity: 0.5;
-    padding: 1.4rem 0rem;
-    white-space: nowrap;
-  }
+    .head-cell {
+      font-size: 1.3rem;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      color: var(--color-dark-blue);
+      opacity: 0.5;
+      padding: 1.4rem 0rem;
+      white-space: nowrap;
+    }
 
-  .checkbox {
-    width: 3.6%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.2rem 0rem;
-    input {
-      width: 1.6rem;
-      height: 1.6rem;
+    .checkbox {
+      width: 3.6%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.2rem 0rem;
+      input {
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+    }
+
+    .status { 
+      width: 9.7%;
+      min-width: 8.4rem;
+      padding-left: 2.4rem;
+      padding-right: 0.4rem;
+    }
+
+    .subject { 
+      width: 60.9%;
+      min-width: 20rem;
+      padding-left: 2.4rem;
+    }
+
+    .last-updated { 
+      width: 13.8%;
+      min-width: 9rem;
+      padding-left: 2.4rem; 
+    }
+
+    .open-rate { 
+      width: 9.6%;
+      min-width: 5rem;
+      padding-left: 3.9rem;
     }
   }
+  
 
-  .status { 
-    width: 9.7%;
-    min-width: 8.4rem;
-    padding-left: 2.4rem;
-  }
 
-  .subject { 
-    width: 60.9%;
-    min-width: 65.3rem;
-    padding-left: 2.4rem;
-  }
-
-  .last-updated { 
-    width: 13.8%;
-    min-width: 13rem;
-    padding-left: 2.4rem; 
-  }
-
-  .open-rate { 
-    width: 9.6%;
-    min-width: 6.8rem;
-    padding-left: 3.9rem;
-  }
-}

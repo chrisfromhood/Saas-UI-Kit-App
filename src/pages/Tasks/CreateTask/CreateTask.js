@@ -1,7 +1,7 @@
 import cs from "./CreateTask.module.css";
 import Button from "../../../components/Button/Button";
 import closeIcon from "../../../assets/img/icons/close.svg";
-import arrowDown from "../../../assets/img/icons/arrow_down.svg";
+import arrowDown from "../../../assets/img/icons/arrow-down-gray.svg";
 import lindsey from "../../../assets/img/users/lindseyStroud.jpg";
 
 
