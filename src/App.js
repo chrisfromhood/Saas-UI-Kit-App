@@ -16,6 +16,10 @@ import CreateTask from "./pages/Tasks/CreateTask/CreateTask";
 import EmailsView from "./pages/Emails/EmailsView/EmailsView";
 import EmailRecepients from "./pages/Emails/EmailsView/EmailRecepients/EmailRecepients";
 import EmailsViewContent from "./pages/Emails/EmailsView/EmailsViewContent/EmailsViewContent";
+import EmailCreateComponents from "./pages/Emails/EmailCreate/EmailCreateComponents/EmailCreateComponents";
+import EmailCreateContent from "./pages/Emails/EmailCreate/EmailCreateContent/EmailCreateContent";
+import EmailCreate from "./pages/Emails/EmailCreate/EmailCreate";
+
 // import cs from "./App.module.css";
 
 function App() {
@@ -34,6 +38,9 @@ function App() {
       <Route path="/emails-view" exact component={EmailsView} />
       <Route path="/emails-view-content" exact component={EmailsViewContent} />
       <Route path="/emails-recepients" exact component={EmailRecepients} />
+      <Route path="/emails-component" exact component={EmailCreateComponents} />
+      <Route path="/emails-create-content" exact component={EmailCreateContent} />
+      <Route path="/emails-create" exact component={EmailCreate} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/homepage" exact component={Homepage} />
       <Route path="/documentation" exact component={Documentation} />
