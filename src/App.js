@@ -19,6 +19,7 @@ import EmailsViewContent from "./pages/Emails/EmailsView/EmailsViewContent/Email
 import EmailCreateComponents from "./pages/Emails/EmailCreate/EmailCreateComponents/EmailCreateComponents";
 import EmailCreateContent from "./pages/Emails/EmailCreate/EmailCreateContent/EmailCreateContent";
 import EmailCreate from "./pages/Emails/EmailCreate/EmailCreate";
+import Contacts from "./pages/Contacts/Contacts";
 
 // import cs from "./App.module.css";
 
@@ -30,6 +31,7 @@ function App() {
       <Route path="/settings-integrations" exact component={IntegrationsSettings} />
       <Route path="/settings-colleagues" exact component={ColleaguesSettings} />
       <Route path="/settings-tags" exact component={TagsSettings} />
+      <Route path="/contacts" exact component={Contacts} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />

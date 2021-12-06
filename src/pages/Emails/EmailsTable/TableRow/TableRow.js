@@ -9,7 +9,7 @@ function TableRow({ subject, lastUpdated, openRate, ...other }) {
       <div className={`${cs["head-cell"]} ${cs["checkbox"]}`}>
         <input type="checkbox" />
       </div>
-      <StatusTag {...other} />
+      <div className={`${cs["head-cell"]} ${cs["status"]}`}><StatusTag {...other} /></div>
       <div className={`${cs["head-cell"]} ${cs["subject"]}`}>{subject}</div>
       <div className={`${cs["head-cell"]} ${cs["last-updated"]}`}>{lastUpdated}</div>
       <div className={`${cs["head-cell"]} ${cs["open-rate"]}`}>{openRate}</div>

@@ -11,7 +11,6 @@
     line-height: 2rem;
     letter-spacing: 0.1px;
     color: var(--color-dark-blue);
-    opacity: 0.5;
     padding: 1.4rem 0rem;
     white-space: nowrap;
   }
@@ -31,7 +30,8 @@
   .status { 
     width: 9.7%;
     min-width: 8.4rem;
-    padding-left: 2.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .subject { 

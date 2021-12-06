@@ -1,0 +1,9 @@
+.content {
+    background-color: var(--color-background-gray);
+
+    .btn-wrapper_save {
+      display: flex;
+
+    }
+
+}

@@ -1,0 +1,78 @@
+.table-grid {
+  margin-left: 3.6rem;
+  margin-right: 3.8rem;
+
+  .table-head {
+    background-color: var(--color-white);
+    display: grid;
+    grid-template-columns: 3.6% 23% 23.7% 12.9% 12.9% 7.5% 11.7%;
+    grid-template-areas: "c-box name email company role forecast activity";
+    /* grid-column-gap: 2.4rem; */
+    /* padding:0rem 2.4rem;  */
+    border-bottom: 0.1rem solid #EBEFF2;
+    
+
+    .head-cell {
+      font-size: 1.3rem;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      color: var(--color-dark-blue);
+      opacity: 0.5;
+      white-space: nowrap;
+      padding: 1.4rem 0rem;
+      margin-left: 2.4rem;
+      align-self:center; 
+    }
+
+    .th-1 {
+      grid-area: c-box;
+        input {
+          display: flex;
+          width: 1.6rem;
+          height: 1.6rem;
+          outline: 2px solid #D5D5D5;
+          border: none;
+          align-self: center;
+          color: #D5D5D5;
+        }
+      
+    }
+
+    .th-2 {
+      grid-area: name;
+    }
+
+    .th-3 {
+      grid-area: email;
+    }
+
+    .th-4 {
+      grid-area: company;
+    }
+
+      .th-5 {
+      grid-area: role;
+    }
+
+      .th-6 {
+      grid-area: forecast;
+    }
+
+      .th-7 {
+      grid-area: activity;
+    }
+
+  } 
+  
+
+  .table-body {
+
+
+
+}
+
+  
+
+
+  
+}
