@@ -1,7 +1,7 @@
 .table-row {
   background-color: var(--color-white);
   display: grid;
-  grid-template-columns: 3.6% 23% 23.7% 12.9% 12.9% 7.5% 11.7%;
+  grid-template-columns: 3.8% 24% 25% 13.5% 13.5% 8% 12.2%;
   grid-template-areas: "c-box name email company role forecast activity";
   border-bottom: 0.1rem solid #EBEFF2;
 
@@ -24,8 +24,9 @@
           width: 1.6rem;
           height: 1.6rem;
           outline: 2px solid #D5D5D5;
-          border: none;
+          border-color: none;
           align-self: center;
+          color: none;
         }
       
     }
@@ -54,3 +55,8 @@
       }
     }
   }
+.table-row:hover,
+.table-row:focus {
+  cursor: pointer;
+  box-shadow: 0px 2px 8px 0px #0000001A;
+}

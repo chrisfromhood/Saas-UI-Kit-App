@@ -5,10 +5,8 @@
   .table-head {
     background-color: var(--color-white);
     display: grid;
-    grid-template-columns: 3.6% 23% 23.7% 12.9% 12.9% 7.5% 11.7%;
+    grid-template-columns: 3.8% 24% 25% 13.5% 13.5% 8% 12.2%;
     grid-template-areas: "c-box name email company role forecast activity";
-    /* grid-column-gap: 2.4rem; */
-    /* padding:0rem 2.4rem;  */
     border-bottom: 0.1rem solid #EBEFF2;
     
 
