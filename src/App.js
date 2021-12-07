@@ -20,7 +20,8 @@ import EmailCreateComponents from "./pages/Emails/EmailCreate/EmailCreateCompone
 import EmailCreateContent from "./pages/Emails/EmailCreate/EmailCreateContent/EmailCreateContent";
 import EmailCreate from "./pages/Emails/EmailCreate/EmailCreate";
 import Contacts from "./pages/Contacts/Contacts";
-import ContactBox from "./pages/ContactsDetails/ContactBox/ContactBox";
+import ContactBox from "./pages/Contacts/ContactsDetails/ContactBox/ContactBox";
+import ContactsRecentActivity from "./pages/Contacts/ContactsDetails/ContactsRecentActivity/ContactsRecentActivity";
 
 // import cs from "./App.module.css";
 
@@ -34,6 +35,7 @@ function App() {
       <Route path="/settings-tags" exact component={TagsSettings} />
       <Route path="/contacts" exact component={Contacts} />
       <Route path="/contacts-box" exact component={ContactBox} />
+      <Route path="/contacts-recent" exact component={ContactsRecentActivity} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />

@@ -1,10 +1,10 @@
 import cs from "./ContactBox.module.css";
 import TextField from "../../../../components/TextField/TextField";
-import user from "../../../assets/img/users/JaneBig.jpg";
-import edit from "../../../assets/img/icons/edit.svg";
-import web from "../../../assets/img/socials-icons/website.svg";
-import tw from "../../../assets/img/socials-icons/twitter.svg";
-import fb from "../../../assets/img/socials-icons/facebook.svg";
+import user from "../../../../assets/img/users/JaneBig.jpg";
+import edit from "../../../../assets/img/icons/edit.svg";
+import web from "../../../../assets/img/socials-icons/website.svg";
+import tw from "../../../../assets/img/socials-icons/twitter.svg";
+import fb from "../../../../assets/img/socials-icons/facebook.svg";
 
 
 function ContactBox() {

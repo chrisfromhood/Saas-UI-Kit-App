@@ -1,0 +1,26 @@
+.text-field_wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 3.2rem;
+  .icon_wrapper {
+    display: flex;
+    align-content: center;
+    margin-right: 2.4rem;
+  }
+  .text_wrapper {
+    h3 {
+      color: var(--color-table-black);
+      .task-details {
+        color: var(--color-accent-blue);
+      }
+    }
+    .time-date {
+      margin-top: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      color: var(--color-table-gray);
+    }
+  }
+}

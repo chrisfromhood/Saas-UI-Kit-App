@@ -1,0 +1,17 @@
+.contacts-recent-activity_wrapper {
+  width: 73rem;
+  margin: 2.4rem;
+  margin-top: 0rem;
+  background-color: var(--color-white);
+  .recent-activity_field {
+    margin-top: 2.4rem;
+    .subheading_date {
+      font-size: 1.3rem;
+      font-weight: 500;
+      line-height: 1.95rem;
+      letter-spacing: 0.1px;
+      opacity: 50%;
+      color: var(--color-dark-blue);
+    }
+  }
+}
