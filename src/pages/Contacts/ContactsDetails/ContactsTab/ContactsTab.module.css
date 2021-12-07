@@ -1,0 +1,47 @@
+.contacts-tab_wrapper {
+  min-width: 73rem;
+  background-color: var(--color-white);
+  border-radius: 0.4rem;
+  .header-row {
+    display: flex;
+    .header-row_item {
+      display: flex;
+      align-items: center;
+      padding: 1.2rem 2.3rem;
+      .icon {
+        margin-right: 0.8rem;
+      }
+      .grey {
+        opacity: 40%;
+      }
+      .text {
+        font-family: "Poppins";
+        line-height: 2rem;
+        letter-spacing: 0.1px;
+        color: var(--color-dark-blue);
+        opacity: 40%;
+      }
+      .text_blue {
+        opacity: 100%;
+      }
+    }
+    .bottom-border_blue {
+      border-bottom: 0.2rem solid var(--color-dark-blue);
+    }
+    .bottom-border_grey {
+      border-bottom: 0.1rem solid rgba(51, 77, 110, 0.1);
+    }
+  }
+  .fill-text_wrapper {
+    margin: 3.2rem;
+    margin-bottom: 0rem;
+    .fill-text {
+      font-family: "Poppins";
+      line-height: 2rem;
+      font-weight: 400;
+      letter-spacing: 0.1px;
+      color: var(--color-dark-blue);
+      opacity: 40%;
+    }
+  }
+}

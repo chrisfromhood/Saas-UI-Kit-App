@@ -22,6 +22,7 @@ import EmailCreate from "./pages/Emails/EmailCreate/EmailCreate";
 import Contacts from "./pages/Contacts/Contacts";
 import ContactBox from "./pages/Contacts/ContactsDetails/ContactBox/ContactBox";
 import ContactsRecentActivity from "./pages/Contacts/ContactsDetails/ContactsRecentActivity/ContactsRecentActivity";
+import ContactsTab from "./pages/Contacts/ContactsDetails/ContactsTab/ContactsTab";
 
 // import cs from "./App.module.css";
 
@@ -36,6 +37,7 @@ function App() {
       <Route path="/contacts" exact component={Contacts} />
       <Route path="/contacts-box" exact component={ContactBox} />
       <Route path="/contacts-recent" exact component={ContactsRecentActivity} />
+      <Route path="/contacts-tab" exact component={ContactsTab} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />
