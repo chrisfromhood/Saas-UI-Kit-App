@@ -1,29 +1,25 @@
 .sort-feature_view {
-    display: inline-block;
-    color: var(--color-neutral-gray);
-    cursor: pointer;
-    margin-left: 3.5rem;
-    margin-top: 5.9rem;
-     p {
-       font-weight: normal;
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-        letter-spacing: 0.1px;
-          span {
-            margin-left: 0.4rem;
-            color: var(--color-accent-blue);
-          }
+  display: inline-block;
+  color: var(--color-neutral-gray);
+  cursor: pointer;
+  p {
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1px;
+    span {
+      margin-left: 0.4rem;
+      color: var(--color-accent-blue);
+    }
 
-          img {
-            height: 0.4rem;
-            width: 0.7rem;
-            margin-left: 0.6rem;
-          }
+    img {
+      height: 0.4rem;
+      width: 0.7rem;
+      margin-left: 0.6rem;
+    }
 
-        img:hover {
-          fill: var(--color-accent-blue);
-        }
-      }
+    img:hover {
+      fill: var(--color-accent-blue);
+    }
+  }
 }
-      
-

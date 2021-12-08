@@ -1,5 +1,5 @@
 .contacts-tab_wrapper {
-  max-width: 73rem;
+  width: 100%;
   background-color: var(--color-white);
   border-radius: 0.4rem;
   .header-row {
@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2.8rem 3.2rem 2.4rem;
+    padding: 2.8rem 3.2rem 2.4rem;
     .footer-left {
       display: inline-flex;
       .icons-wrapper {
