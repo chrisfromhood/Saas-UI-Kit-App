@@ -5,6 +5,9 @@ import call from "../../../../assets/img/contact/call.svg";
 import newActivity from "../../../../assets/img/contact/new-activity.svg";
 import task from "../../../../assets/img/contact/create-task.svg";
 import schedule from "../../../../assets/img/contact/schedule.svg";
+import attach from "../../../../assets/img/contact/attach.svg";
+import insert from "../../../../assets/img/contact/insert.svg";
+import text from "../../../../assets/img/contact/text.svg";
 function ContactsTab() {
   return (
 
@@ -37,6 +40,23 @@ function ContactsTab() {
       </div>
       <div className={cs["fill-text_wrapper"]}>
         <p className={cs["fill-text"]}>Leave a note here..</p>
+      </div>
+      <div className={cs["footer-row"]}>
+        <div className={cs["footer-left"]}>
+          <div className={cs["icons-wrapper"]}>
+            <img className={cs["icon"]} src={text} alt="Text icon" />
+            <img className={cs["icon"]} src={insert} alt="Insert icon" />
+            <img className={cs["icon"]} src={attach} alt="Attachment icon" />
+          </div>
+        </div>
+        <div className={cs["footer-right"]}>
+          <div className={cs["btn-wrapper"]}>
+            <span className={cs["grey"]}>Cancel</span>
+          </div>
+          <div className={cs["btn-wrapper"]}>
+            <span>Save</span>
+          </div>
+        </div>
       </div>
     </div>
   );
