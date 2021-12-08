@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  padding: 3.5rem 3.8rem 0rem 3.6rem;
+  background-color: #f5f6f8;
+  .left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    .back_wrapper {
+      display: flex;
+      margin-bottom: 2.5rem;
+      span {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        letter-spacing: 0.1px;
+        text-align: left;
+        color: var(--color-neutral-gray);
+      }
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    .sort-feature_wrapper {
+      margin: 4.4rem 0rem 1.6rem;
+    }
+  }
+}

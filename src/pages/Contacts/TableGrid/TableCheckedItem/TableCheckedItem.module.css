@@ -1,0 +1,50 @@
+.table-topbar {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+  min-height: 4.8rem;
+}
+
+.table-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+  border-bottom: 0.1rem solid #ebeff2;
+
+  .checkbox {
+    margin-left: 2.4rem;
+    input {
+      display: flex;
+      width: 1.6rem;
+      height: 1.6rem;
+      outline: 2px solid #d5d5d5;
+      border: none;
+      align-self: center;
+      color: #d5d5d5;
+    }
+  }
+
+  .selected {
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: var(--color-dark-blue);
+    padding: 1.4rem;
+    padding-right: 4rem;
+  }
+
+  .topbar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.6rem;
+    .topbar_icon {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+}
