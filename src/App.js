@@ -28,6 +28,8 @@ import TableCheckedItem from "./pages/Contacts/TableGrid/TableCheckedItem/TableC
 import ContactBoxCreate from "./pages/Contacts/ContactsCreate/ContactBoxCreate/ContactBoxCreate";
 import ContactsCreate from "./pages/Contacts/ContactsCreate/ContactsCreate";
 import ContactsDelete from "./pages/Contacts/ContactsDelete/ContactsDelete";
+import DealsCreate from "./pages/Deals/DealsCreate/DealsCreate";
+import DealsFreshdesk from "./pages/Deals/DealsFreshdesk/DealsFreshdesk";
 
 // import cs from "./App.module.css";
 
@@ -51,6 +53,8 @@ function App() {
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />
+      <Route path="/deals-create" exact component={DealsCreate} />
+      <Route path="/deals-flashdesk" exact component={DealsFreshdesk} />
       <Route path="/emails" exact component={Emails} />
       <Route path="/emails-checked" exact component={TableChecked} />
       <Route path="/emails-view" exact component={EmailsView} />
