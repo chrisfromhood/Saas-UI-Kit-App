@@ -26,6 +26,8 @@ import ContactsTab from "./pages/Contacts/ContactsDetails/ContactsTab/ContactsTa
 import ContactsDetails from "./pages/Contacts/ContactsDetails/ContactsDetails";
 import TableCheckedItem from "./pages/Contacts/TableGrid/TableCheckedItem/TableCheckedItem";
 import ContactBoxCreate from "./pages/Contacts/ContactsCreate/ContactBoxCreate/ContactBoxCreate";
+import ContactsCreate from "./pages/Contacts/ContactsCreate/ContactsCreate";
+import ContactsDelete from "./pages/Contacts/ContactsDelete/ContactsDelete";
 
 // import cs from "./App.module.css";
 
@@ -40,10 +42,12 @@ function App() {
       <Route path="/contacts" exact component={Contacts} />
       <Route path="/contacts-box" exact component={ContactBox} />
       <Route path="/contacts-box-create" exact component={ContactBoxCreate} />
+      <Route path="/contacts-create" exact component={ContactsCreate} />
       <Route path="/contacts-recent" exact component={ContactsRecentActivity} />
       <Route path="/contacts-tab" exact component={ContactsTab} />
       <Route path="/contacts-details" exact component={ContactsDetails} />
       <Route path="/contacts-checked-item" exact component={TableCheckedItem} />
+      <Route path="/contacts-delete" exact component={ContactsDelete} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />

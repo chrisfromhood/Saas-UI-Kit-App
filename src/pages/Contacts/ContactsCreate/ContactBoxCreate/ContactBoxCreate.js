@@ -26,7 +26,7 @@ function ContactBoxCreate() {
       <div className={cs["contact-box-down"]}>
 
         <div className={cs["text-field-edit"]}>
-          <span className={cs["field-name"]}>First name</span>
+          <span className={`${cs["field-name"]} ${cs["blue"]}`}>First name</span>
           <div className={cs["user-value_wrapper"]}>
             <input className={cs["user-value"]} type="text" placeholder="Jane"></input>
           </div>
