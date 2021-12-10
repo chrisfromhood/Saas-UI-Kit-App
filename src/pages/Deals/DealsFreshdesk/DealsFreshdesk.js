@@ -69,19 +69,20 @@ function DealsFreshdesk() {
         <h3>Leave a comment</h3>
         <div className={cs["fill-text_wrapper"]}>
           <p className={cs["fill-text"]}>Enter a comment.</p>
-        </div>
-        <div className={cs["footer-row"]}>
-          <div className={cs["footer-left"]}>
-            <div className={cs["icons-wrapper"]}>
-              <img className={cs["icon"]} src={text} alt="Text icon" />
-              <img className={cs["icon"]} src={insert} alt="Insert icon" />
-              <img className={cs["icon"]} src={attach} alt="Attachment icon" />
+          <div className={cs["footer-row"]}>
+            <div className={cs["footer-left"]}>
+              <div className={cs["icons-wrapper"]}>
+                <img className={cs["icon"]} src={text} alt="Text icon" />
+                <img className={cs["icon"]} src={insert} alt="Insert icon" />
+                <img className={cs["icon"]} src={attach} alt="Attachment icon" />
+              </div>
+            </div>
+            <div className={cs["footer-right"]}>
+              <span className={cs["btn_tertiary"]}>Send</span>
             </div>
           </div>
-          <div className={cs["footer-right"]}>
-            <span className={cs["btn_tertiary"]}>Send</span>
-          </div>
         </div>
+
       </section>
       <section className={cs["section-comments"]}>
         <h3>Comments</h3>
@@ -107,10 +108,14 @@ function DealsFreshdesk() {
               </div>
             </div>
           </div>
-
         </div>
-
-
+      </section>
+      <section className={cs["section-actions"]}>
+        <h3>Actions</h3>
+        <div className={cs["btns-wrapper"]}>
+          <button className={`${cs["btn"]} ${cs["lost"]}`}>Lost</button>
+          <button className={`${cs["btn"]} ${cs["won"]}`}>Won</button>
+        </div>
       </section>
 
 

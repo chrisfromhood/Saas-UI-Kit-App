@@ -134,17 +134,19 @@
   }
 
   .section-leave-comment {
-    padding: 2.4rem 3.2rem;
-    padding-top: 0;
-    box-shadow: 0px 6px 18px 0px #0000000f;
+    margin: 3.2rem;
+
     h3 {
       color: var(--color-neutral-black);
       margin-bottom: 1.1rem;
     }
 
     .fill-text_wrapper {
-      margin: 1.6rem;
-      margin-bottom: 0rem;
+      padding: 1.6rem;
+      padding-bottom: 0rem;
+      background-color: var(--color-white);
+      box-shadow: 0px 6px 18px 0px #0000000f;
+
       .fill-text {
         font-family: "Poppins";
         line-height: 2rem;
@@ -154,37 +156,35 @@
         opacity: 40%;
         padding-bottom: 7rem;
       }
-    }
-    .footer-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem 1.6rem 1.6rem;
-      .footer-left {
-        display: inline-flex;
-        .icons-wrapper {
+      .footer-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.6rem 1.6rem;
+        .footer-left {
           display: inline-flex;
-          .icon {
-            margin-right: 1.6rem;
+          .icons-wrapper {
+            display: inline-flex;
+            .icon {
+              margin-right: 1.6rem;
+            }
           }
         }
-      }
-      .footer-right {
-        .btn_tertiary {
-          font-size: 1.3rem;
-          font-weight: 600;
-          line-height: 2rem;
-          letter-spacing: 0.1px;
-          color: var(--color-accent-blue);
+        .footer-right {
+          .btn_tertiary {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 2rem;
+            letter-spacing: 0.1px;
+            color: var(--color-accent-blue);
+          }
         }
       }
     }
   }
 
   .section-comments {
-    padding: 2.4rem 3.2rem;
-    padding-top: 0;
-    box-shadow: 0px 8px 32px 0px #0000001f;
+    margin: 3.2rem;
 
     h3 {
       color: var(--color-neutral-black);
@@ -194,6 +194,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 0.8rem;
       .user_wrapper {
         display: flex;
         align-items: center;
@@ -211,6 +212,8 @@
         }
       }
       .date {
+        margin-right: 1.1rem;
+
         span {
           font-size: 1rem;
           font-weight: 400;
@@ -224,6 +227,74 @@
       background-color: var(--color-white);
       box-shadow: 0px 6px 18px 0px #0000000f;
       margin-left: 3.2rem;
+      padding: 1.6rem;
+
+      .fill-comment {
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: 0.1px;
+        color: var (--color-black);
+        padding-bottom: 3.6rem;
+      }
+      .footer-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer-left {
+          .btn_tertiary {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 2rem;
+            letter-spacing: 0.1px;
+            color: var(--color-dark-blue);
+            opacity: 40%;
+          }
+        }
+        .footer-right {
+          .small_icon {
+            margin-left: 1.2rem;
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .section-actions {
+    margin: 3.2rem;
+    h3 {
+      color: var(--color-neutral-black);
+      margin-bottom: 1.1rem;
+    }
+    .btns-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 3.2rem;
+
+      .btn {
+        padding: 1.4rem 1.4rem;
+        border-radius: 0.4rem;
+        width: 31.2rem;
+        font-family: Poppins;
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 2rem;
+        letter-spacing: 0.10000000149011612px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .won {
+        box-shadow: 0px 4px 10px 0px #109cf13d;
+        background-color: var(--color-accent-blue);
+        color: var(--color-white);
+      }
+      .lost {
+        border: 1px solid var(--color-accent-blue);
+        color: var(--color-accent-blue);
+        background-color: var(--color-white);
+        box-shadow: 0px 8px 32px 0px #0000001f;
+      }
     }
   }
 }
