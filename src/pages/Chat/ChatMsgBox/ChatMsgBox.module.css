@@ -1,0 +1,4 @@
+chat-msg-box {
+  display: flex;
+  flex-direction: column;
+}
