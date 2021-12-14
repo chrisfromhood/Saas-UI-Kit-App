@@ -1,6 +1,6 @@
 import cs from "./Deals.module.css";
 import AppPage from "../../components/AppPage/AppPage";
-import TasksHeader from "../Tasks/TasksHeader/TasksHeader";
+
 import Button from "../../components/Button/Button";
 
 import arrowIcon from "../../assets/img/icons/arrow.svg";
@@ -16,23 +16,23 @@ function Deals() {
 
         <AppPage>
             <div className={cs["content"]}>
-                <TasksHeader>
 
-                    <div className={cs["sort-feature_wrapper"]}>
-                        <div className={cs["sort-feature_view"]}>
-                            <p>
-                                View:<span>All</span>
-                                <img src={arrowIcon} alt="Arrow Down Icon" />
-                            </p>
-                        </div>
 
+                <div className={cs["sort-feature_wrapper"]}>
+                    <div className={cs["sort-feature_view"]}>
+                        <p>
+                            View:<span>All</span>
+                            <img src={arrowIcon} alt="Arrow Down Icon" />
+                        </p>
                     </div>
 
-                    <div className={cs["btn-wrapper_save"]}>
-                        <Button className={`${cs["btn-default"]}`}>Create Deal</Button>
-                    </div>
+                </div>
 
-                </TasksHeader>
+                <div className={cs["btn-wrapper_save"]}>
+                    <Button className={`${cs["btn-default"]}`}>Create Deal</Button>
+                </div>
+
+
 
                 <div className={cs["border-bottom"]}></div>
 

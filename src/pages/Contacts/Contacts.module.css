@@ -1,9 +1,9 @@
 .content {
-    background-color: var(--color-background-gray);
-
-    .btn-wrapper_save {
-      display: flex;
-
-    }
-
+  background-color: var(--color-background-gray);
+  .header-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 3.5rem 3.8rem 2.4rem 3.6rem;
+  }
 }

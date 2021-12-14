@@ -1,0 +1,8 @@
+.checkbox {
+  display: block;
+  cursor: pointer;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 2px solid #d5d5d5;
+  border-radius: 0.4rem;
+}

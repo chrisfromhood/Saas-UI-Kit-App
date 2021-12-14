@@ -2,6 +2,7 @@
   display: inline-block;
   color: var(--color-neutral-gray);
   cursor: pointer;
+  margin-right: 3.2rem;
   p {
     font-weight: normal;
     font-size: 1.2rem;

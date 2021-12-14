@@ -1,21 +1,18 @@
 import cs from "./StatusTag.module.css";
 
-function StatusTag({ archived = false, draft = false, sent = false, scheduled = false }) {
+function StatusTag({ children, green = false, red = false, yellow = false, purple = false }) {
   return (
 
     <div className={`${cs["status_select"]} 
-        ${archived ? cs["archived"] : ""}
-        ${draft ? cs["draft"] : ""}
-        ${sent ? cs["sent"] : ""}
-        ${scheduled ? cs["scheduled"] : ""}
-      `}
+    ${green ? cs["green"] : ""}
+    ${yellow ? cs["yellow"] : ""}
+    ${red ? cs["red"] : ""}
+    ${purple ? cs["purple"] : ""}
+    `}
     >
 
       <span className={cs["status_title"]}>
-        {archived ? "Archived" : ""}
-        {draft ? "Draft" : ""}
-        {sent ? "Sent" : ""}
-        {scheduled ? "Scheduled" : ""}
+        {children}
       </span>
 
     </div>

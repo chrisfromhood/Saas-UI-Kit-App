@@ -14,15 +14,16 @@
   line-height: 1.6rem;
   letter-spacing: 0.2px;
 }
-.archived {
+
+.red {
   background-color: var(--color-red);
 }
-.draft {
+.yellow {
   background-color: var(--color-yellow);
 }
-.sent {
+.green {
   background-color: var(--color-green);
 }
-.scheduled {
+.purple {
   background-color: var(--color-purple);
 }

@@ -14,7 +14,7 @@ function EmailsViewContent() {
 
         <div className={cs["content_left"]}>
           <div className={cs["tag_wrapper"]}>
-            <StatusTag sent />
+            <StatusTag green>Sent</StatusTag>
           </div>
 
           <div className={cs["email-headline"]}>
