@@ -1,7 +1,7 @@
 .email-view_section {
   background-color: var(--color-white);
-  border-radius: .4rem;
-  box-shadow: 0rem .6rem 1.8rem 0rem #0000000F;
+  border-radius: 0.4rem;
+  box-shadow: 0rem 0.6rem 1.8rem 0rem #0000000f;
   max-width: 120rem;
   .content-header {
     display: flex;
@@ -13,15 +13,9 @@
       flex-direction: column;
       margin-left: 2.4rem;
       margin-top: 2.4rem;
-
-      .tag_wrapper {
-        margin: -2.4rem;
-      }
-      
       .email-headline {
         display: flex;
         margin-top: 1.6rem;
-
         .arrow_up {
           margin-left: 1.2rem;
         }
@@ -29,7 +23,7 @@
       .email-stats_wrapper {
         margin: 2rem 0rem 0.8rem 0rem;
         .email-stats {
-          span {        
+          span {
             font-size: 1.3rem;
             font-weight: 400;
             line-height: 2rem;
@@ -37,61 +31,55 @@
             color: var(--color-neutral-dark-gray);
             margin-bottom: 0.8rem;
           }
-          span:first-of-type {        
+          span:first-of-type {
             opacity: 50%;
-            margin-right: .4rem;
+            margin-right: 0.4rem;
           }
-          span:last-of-type:hover {        
+          span:last-of-type:hover {
             color: var(--color-accent-blue);
             cursor: pointer;
             font-weight: 600;
           }
         }
       }
-
+    }
+    .content_right {
+      display: flex;
+      flex-direction: column;
+      margin-right: 2.4rem;
+      margin-top: 2.4rem;
+      span {
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: 0.1px;
+        color: var(--color-table-gray);
       }
-      .content_right {
+      .email-icons_wrapper {
         display: flex;
-        flex-direction: column;
-        margin-right: 2.4rem;
-        margin-top: 2.4rem;
-        span {        
-          font-size: 1.3rem;
-          font-weight: 400;
-          line-height: 2rem;
-          letter-spacing: 0.1px;
-          color: var(--color-table-gray);
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 2.8rem;
+
+        .red_circle {
+          display: block;
+          width: 1.2rem;
+          height: 1.2rem;
+          border-radius: 50%;
+          border: 2px solid var(--color-red);
         }
-        .email-icons_wrapper {
-          display: flex;
-          align-items: center;
-          justify-content: flex-end;
-          margin-bottom: 2.8rem;
-
-          .red_circle {
-            display: block;
-            width: 1.2rem;
-            height: 1.2rem;
-            border-radius: 50%;
-            border: 2px solid var(--color-red);
-          }
-          .bin {
-            width: 1.6rem;
-            height: 1.6rem;
-            margin-left: 1.6rem;
-          }
-            
-
+        .bin {
+          width: 1.6rem;
+          height: 1.6rem;
+          margin-left: 1.6rem;
         }
-
       }
-
+    }
   }
   .email-view_content {
     margin: 1.6rem 2.4rem 0rem 2.4rem;
     .cover {
       width: 100%;
-
     }
     h2 {
       margin: 1.6rem 0rem;
@@ -105,7 +93,4 @@
       opacity: 70%;
     }
   }
-  
-
-
 }

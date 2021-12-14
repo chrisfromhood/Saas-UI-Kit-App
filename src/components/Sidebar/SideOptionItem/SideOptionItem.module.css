@@ -1,0 +1,66 @@
+.side-options_item {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .side-options_btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: var(--color-dark-blue);
+  }
+
+  .side-status {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+    width: 100%;
+    margin: 1rem 2.4rem 0 6rem;
+
+    .side-status_item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      color: var(--color-dark-blue);
+      font-size: 1.3rem;
+      line-height: 2rem;
+      font-weight: 400;
+      margin-bottom: 0.8rem;
+    }
+
+    .side-status_icon {
+      display: block;
+      width: 0.8rem;
+      height: 0.8rem;
+      margin-right: 0.8rem;
+      border-radius: 50%;
+    }
+    .yellow_circle {
+      border: 2px solid var(--color-yellow);
+    }
+
+    .green_circle {
+      border: 2px solid var(--color-green);
+    }
+
+    .red_circle {
+      border: 2px solid var(--color-red);
+    }
+
+    .purple_circle {
+      border: 2px solid var(--color-purple);
+    }
+  }
+
+  .side-options_icon {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 2.65rem;
+    margin-right: 1.65rem;
+  }
+}

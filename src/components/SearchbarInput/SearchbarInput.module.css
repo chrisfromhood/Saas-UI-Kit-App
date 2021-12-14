@@ -1,0 +1,25 @@
+.searchbar-input {
+  display: flex;
+  border-radius: 0.4rem;
+  background-color: #f5f8fa;
+  .search__button {
+    display: flex;
+    align-items: center;
+    background-color: #f5f8fa;
+    padding: 1rem 0.8rem 1rem 1.6rem;
+    cursor: pointer;
+    .search_img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  input {
+    width: calc(100% - 4.4rem);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0.1px;
+    color: var(--color-gray);
+    background-color: #f5f8fa;
+  }
+}

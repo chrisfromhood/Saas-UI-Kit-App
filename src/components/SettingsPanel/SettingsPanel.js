@@ -1,5 +1,6 @@
 import React from "react";
 import cs from "./SettingsPanel.module.css";
+import SettingsItem from "./SettingsItem/SettingsItem";
 
 import accountIcon from "../../assets/img/icons/account.svg";
 import notificationIcon from "../../assets/img/icons/notify.svg";
@@ -11,41 +12,33 @@ function SettingsPanel() {
     return (
 
         <div className={cs["settings-bar"]}>
-            <div className={cs["settings-bar_item"]}>
-                <img src={accountIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
-                <div className={cs["settings-bar_wrapper"]}>
-                    <a href="/" className={cs["settings-bar_label"]}>Account</a>
-                    <span className={cs["settings-bar_details"]}>Your account preferences</span>
-                </div>
-            </div>
-            <div className={cs["settings-bar_item"]}>
-                <img src={notificationIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
-                <div className={cs["settings-bar_wrapper"]}>
-                    <a href="/" className={cs["settings-bar_label"]}>Notifications</a>
-                    <span className={cs["settings-bar_details"]}>Your notifications preferences</span>
-                </div>
-            </div>
-            <div className={cs["settings-bar_item"]}>
-                <img src={intergrationsIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
-                <div className={cs["settings-bar_wrapper"]}>
-                    <a href="/" className={cs["settings-bar_label"]}>Integrations</a>
-                    <span className={cs["settings-bar_details"]}>Add or remove integrations</span>
-                </div>
-            </div>
-            <div className={cs["settings-bar_item"]}>
-                <img src={collegauesIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
-                <div className={cs["settings-bar_wrapper"]}>
-                    <a href="/" className={cs["settings-bar_label"]}>Colleagues</a>
-                    <span className={cs["settings-bar_details"]}>Your colleague preferences</span>
-                </div>
-            </div>
-            <div className={cs["settings-bar_item"]}>
-                <img src={tagsIcon} alt="Account Icon" className={cs["settings-bar_icon"]} />
-                <div className={cs["settings-bar_wrapper"]}>
-                    <a href="/" className={cs["settings-bar_label"]}>Tags</a>
-                    <span className={cs["settings-bar_details"]}>Add or remove tags</span>
-                </div>
-            </div>
+
+            <SettingsItem
+                icon={accountIcon}
+                title="Account"
+                description="Your account preferences"
+            />
+            <SettingsItem
+                icon={notificationIcon}
+                title="Notifications"
+                description="Your notifications preferences"
+            />
+            <SettingsItem
+                icon={intergrationsIcon}
+                title="Integrations"
+                description="Add or remove integrations"
+            />
+            <SettingsItem
+                icon={collegauesIcon}
+                title="Colleagues"
+                description="Your colleagues preferences"
+            />
+            <SettingsItem
+                icon={tagsIcon}
+                title="Tags"
+                description="Add or remove tags"
+            />
+
         </div>
 
     );

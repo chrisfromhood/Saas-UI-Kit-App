@@ -1,5 +1,5 @@
 import cs from "./EmailCreateComponents.module.css";
-import SearchbarDefault from "../../../../components/SearchbarDefault/SearchbarDefault";
+import SearchbarInput from "../../../../components/SearchbarInput/SearchbarInput";
 import ComponentTypeBox from "./ComponentTypeBox/ComponentTypeBox";
 
 // COMPONENTS ICONS
@@ -19,7 +19,9 @@ function EmailCreateComponents() {
     <div className={cs["components-container"]}>
       <div className={cs["email-recepients_header"]}>
         <h3>Components</h3>
-        <SearchbarDefault title="Search components" />
+        <SearchbarInput
+          title="Search components"
+        />
       </div>
       <div className={cs["email-create-components"]}>
         <ComponentTypeBox

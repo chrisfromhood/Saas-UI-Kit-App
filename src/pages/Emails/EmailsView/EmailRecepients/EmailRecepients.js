@@ -1,5 +1,5 @@
 import cs from "./EmailRecepients.module.css";
-import SearchbarDefault from "../../../../components/SearchbarDefault/SearchbarDefault";
+import SearchbarInput from "../../../../components/SearchbarInput/SearchbarInput";
 import EmailAddressRow from "../EmailAddressRow/EmailAddressRow";
 
 function EmailRecepients() {
@@ -8,7 +8,7 @@ function EmailRecepients() {
     <div className={cs["email-recepients"]}>
       <div className={cs["email-recepients_header"]}>
         <h3>Recepients</h3>
-        <SearchbarDefault title="Search recepient" />
+        <SearchbarInput title="Search recepient" />
       </div>
       <div className={cs["email-recepients_content"]}>
         <EmailAddressRow email="mikescolaro@gmail.com" />
