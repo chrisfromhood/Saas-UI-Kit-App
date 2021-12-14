@@ -20,7 +20,10 @@ function ChatMsgBox() {
         userLogo={linsey}
         userName="Lindsey Stroud"
         lastActive="30 Dec 2018, 12:34"
+
       />
+
+
       <ChatRow
         userLogo={nicci}
         userName="Nicci Troiani"

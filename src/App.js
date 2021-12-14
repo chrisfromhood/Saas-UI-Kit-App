@@ -32,6 +32,8 @@ import DealsCreate from "./pages/Deals/DealsCreate/DealsCreate";
 import DealsFreshdesk from "./pages/Deals/DealsFreshdesk/DealsFreshdesk";
 import ChatRow from "./pages/Chat/ChatRow/ChatRow";
 import ChatMsgBox from "./pages/Chat/ChatMsgBox/ChatMsgBox";
+import ChatWindow from "./pages/Chat/ChatWindow/ChatWindow";
+import Chat from "./pages/Chat/Chat";
 
 // import cs from "./App.module.css";
 
@@ -52,8 +54,10 @@ function App() {
       <Route path="/contacts-details" exact component={ContactsDetails} />
       <Route path="/contacts-checked-item" exact component={TableCheckedItem} />
       <Route path="/contacts-delete" exact component={ContactsDelete} />
+      <Route path="/chat" exact component={Chat} />
       <Route path="/chat-row" exact component={ChatRow} />
       <Route path="/chat-msg-box" exact component={ChatMsgBox} />
+      <Route path="/chat-window" exact component={ChatWindow} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
       <Route path="/deals" exact component={Deals} />

@@ -1,6 +1,6 @@
 import cs from "./ChatRow.module.css";
 
-function ChatRow({ userLogo, userName, lastActive, message = false, typing = false, you = false, youText = false }) {
+function ChatRow({ userLogo, userName, lastActive, children }) {
   return (
 
 
@@ -13,9 +13,10 @@ function ChatRow({ userLogo, userName, lastActive, message = false, typing = fal
         <div className={cs["user-last-active"]}>{lastActive}</div>
       </div>
       <div className={cs["bottom-row"]}>
-        <span className={cs["message"]}>{message}</span>
+        <div>{children}</div>
+        {/* <span className={cs["message"]}>{message}</span>
         <span className={cs["typing"]}>{typing}</span>
-        <div className={cs["row-you"]}><span>{you}</span>{youText}</div>
+        <div className={cs["row-you"]}><span>{you}</span>{youText}</div> */}
       </div>
 
     </div>
