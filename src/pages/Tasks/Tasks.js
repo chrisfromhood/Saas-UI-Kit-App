@@ -2,6 +2,7 @@ import cs from "./Tasks.module.css";
 import AppPage from "../../components/AppPage/AppPage";
 import Button from "../../components/Button/Button";
 import SortFeature from "../../components/SortFeature/SortFeature";
+import TasksTableGrid from "./TasksTableGrid/TasksTableGrid";
 
 
 function Tasks() {
@@ -19,6 +20,7 @@ function Tasks() {
                     </div>
                     <Button className={`${cs["btn-default"]}`}>Create task</Button>
                 </div>
+                <TasksTableGrid />
             </div>
         </AppPage>
     );

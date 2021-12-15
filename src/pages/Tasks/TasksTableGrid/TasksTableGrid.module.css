@@ -1,0 +1,45 @@
+.table-grid {
+  margin-left: 3.6rem;
+  margin-right: 3.8rem;
+
+  .table-head {
+    background-color: var(--color-white);
+    display: grid;
+    grid-template-columns: 3.6% 9.8% 38% 14.8% 19.5% 14.3%;
+    grid-template-areas: "c-box status title type associated date";
+    border-bottom: 0.1rem solid #ebeff2;
+
+    .head-cell {
+      font-size: 1.3rem;
+      line-height: 2rem;
+      letter-spacing: 0.1px;
+      color: var(--color-dark-blue);
+      opacity: 0.5;
+      white-space: nowrap;
+      padding: 1.4rem 0rem;
+      margin-left: 2.4rem;
+      align-self: center;
+    }
+
+    .th-1 {
+      grid-area: c-box;
+      opacity: 1;
+    }
+
+    .th-2 {
+      grid-area: status;
+    }
+    .th-3 {
+      grid-area: title;
+    }
+    .th-4 {
+      grid-area: type;
+    }
+    .th-5 {
+      grid-area: associated;
+    }
+    .th-6 {
+      grid-area: date;
+    }
+  }
+}
