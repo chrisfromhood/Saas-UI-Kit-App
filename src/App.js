@@ -34,6 +34,7 @@ import ChatRow from "./pages/Chat/ChatRow/ChatRow";
 import ChatMsgBox from "./pages/Chat/ChatMsgBox/ChatMsgBox";
 import ChatWindow from "./pages/Chat/ChatWindow/ChatWindow";
 import Chat from "./pages/Chat/Chat";
+import TasksTableCheckedRow from "./pages/Tasks/TasksTableCheckedRow/TasksTableCheckedRow";
 
 // import cs from "./App.module.css";
 
@@ -60,6 +61,7 @@ function App() {
       <Route path="/chat-window" exact component={ChatWindow} />
       <Route path="/tasks" exact component={Tasks} />
       <Route path="/tasks-create-task" exact component={CreateTask} />
+      <Route path="/tasks-checked-row" exact component={TasksTableCheckedRow} />
       <Route path="/deals" exact component={Deals} />
       <Route path="/deals-create" exact component={DealsCreate} />
       <Route path="/deals-flashdesk" exact component={DealsFreshdesk} />

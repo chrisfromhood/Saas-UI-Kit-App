@@ -1,7 +1,7 @@
 import cs from "./TableChecked.module.css";
 import editIcon from "../../assets/img/icons/edit-icon.svg";
 import binIcon from "../../assets/img/icons/baseline-delete.svg";
-import StatusCircle from "../ColorCircles/StatusCircle";
+import StatusCircle from "../StatusCircles/StatusCircle";
 
 function TableChecked() {
   return (

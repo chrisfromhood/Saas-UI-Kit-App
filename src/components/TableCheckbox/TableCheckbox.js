@@ -1,8 +1,11 @@
 import cs from "./TableCheckbox.module.css";
 
-function TableCheckbox() {
+function TableCheckbox({ children, selected = false }) {
   return (
-    <div className={cs["checkbox"]}></div>
+    <div className={`${cs["checkbox"]}
+    ${selected ? cs["selected"] : ""}
+    `}>
+      {children}</div>
   );
 }
 
