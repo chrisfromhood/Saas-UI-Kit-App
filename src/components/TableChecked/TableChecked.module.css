@@ -4,15 +4,11 @@
   background-color: var(--color-white);
   min-height: 4.8rem;
 }
-
 .table-row {
   width: 100%;
   display: flex;
   background-color: var(--color-white);
-  border-bottom: 0.1rem solid #EBEFF2;
-  
-  
-  
+  border-bottom: 0.1rem solid #ebeff2;
   .head-cell {
     font-size: 1.3rem;
     line-height: 2rem;
@@ -21,7 +17,6 @@
     padding: 1.4rem 0rem;
     white-space: nowrap;
   }
-
   .checkbox {
     width: 3.6%;
     display: flex;
@@ -33,32 +28,22 @@
       height: 1.6rem;
     }
   }
-
-  .status { 
+  .status {
     width: 9.7%;
     min-width: 8.4rem;
     padding-left: 2.4rem;
   }
-
-  .topbar-icons { 
+  .topbar-icons {
     display: flex;
     align-items: center;
     justify-content: center;
+    .circle-margin {
+      margin: 1.8rem 1.6rem;
+    }
     .topbar_icon {
       width: 1.6rem;
       height: 1.6rem;
       margin-right: 1rem;
     }
-    .red_circle {
-      display: block;
-      width: 1.2rem;
-      height: 1.2rem;
-      margin-right: 1.8rem;
-      border-radius: 50%;
-      border: 2px solid var(--color-red);
-    }
   }
-
-
-  
 }

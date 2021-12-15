@@ -1,0 +1,27 @@
+.side-status_icon {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}
+.yellow {
+  border: 2px solid var(--color-yellow);
+}
+.green {
+  border: 2px solid var(--color-green);
+}
+.red {
+  border: 2px solid var(--color-red);
+}
+.purple {
+  border: 2px solid var(--color-purple);
+}
+
+.w12 {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.w16 {
+  width: 1.6rem;
+  height: 1.6rem;
+}

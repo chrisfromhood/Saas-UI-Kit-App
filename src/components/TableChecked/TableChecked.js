@@ -1,6 +1,7 @@
 import cs from "./TableChecked.module.css";
 import editIcon from "../../assets/img/icons/edit-icon.svg";
 import binIcon from "../../assets/img/icons/baseline-delete.svg";
+import StatusCircle from "../ColorCircles/StatusCircle";
 
 function TableChecked() {
   return (
@@ -12,7 +13,9 @@ function TableChecked() {
         </div>
         <div className={`${cs["head-cell"]} ${cs["status"]}`}>1 selected</div>
         <div className={cs["topbar-icons"]}>
-          <div className={cs["red_circle"]}></div>
+          <div className={cs["circle-margin"]}>
+            <StatusCircle red w12 />
+          </div>
           <img src={editIcon} alt="Edit Icon" className={cs["topbar_icon"]} />
           <img src={binIcon} alt="Bin Icon" className={cs["topbar_icon"]} />
         </div>
