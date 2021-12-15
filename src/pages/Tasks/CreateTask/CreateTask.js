@@ -5,6 +5,7 @@ import arrowDown from "../../../assets/img/icons/arrow-down-gray.svg";
 import lindsey from "../../../assets/img/users/lindseyStroud.jpg";
 import StatusTag from "../../../components/StatusTag/StatusTag"
 import TextfieldIcon from "../../../components/TextfieldIcon/TextfieldIcon";
+import AssociatedWith from "../../../components/AssociatedWith/AssociatedWith";
 
 
 
@@ -13,10 +14,12 @@ function CreateTask() {
     <div className={cs["create-task_container"]}>
 
       <div className={cs["create-task_box"]}>
+
         <div className={cs["box-heading"]}>
           <h1>Create Task</h1>
           <img src={closeIcon} alt="Close Icon" className={cs["close_icon"]} />
         </div>
+
         <div className={cs["box-status_wrapper"]}>
           <StatusTag yellow>Active</StatusTag>
           <StatusTag green>Completed</StatusTag>
@@ -24,6 +27,7 @@ function CreateTask() {
         </div>
 
         <div className={cs["box-forms_wrapper"]}>
+
           <TextfieldIcon
             title="Title"
             option="Office meet-up"
@@ -37,16 +41,13 @@ function CreateTask() {
             <img src={arrowDown} alt="Arrow Down" className={cs["arrow_down"]} />
           </TextfieldIcon>
 
-          <div className={cs["box-form_field"]}>
-            <label>Associated with</label>
-            <div className={cs["text-field_wrapper"]}>
-              <div className={cs["user_wrapper"]}>
-                <img src={lindsey} alt="User avatar" className={cs["user_avatar"]} />
-                <span>Lindsey Stroud</span>
-              </div>
-              <img src={arrowDown} alt="Arrow Down" className={cs["arrow_down"]} />
-            </div>
-          </div>
+          <AssociatedWith
+            title="Associated with"
+            userLogo={lindsey}
+            userName="Lindsey Stroud"
+          >
+            <img src={arrowDown} alt="Arrow Down" className={cs["arrow_down"]} />
+          </AssociatedWith>
 
           <TextfieldIcon
             title="Due date"
@@ -54,7 +55,6 @@ function CreateTask() {
           >
             <img src={arrowDown} alt="Arrow Down" className={cs["arrow_down"]} />
           </TextfieldIcon>
-
 
         </div>
 
