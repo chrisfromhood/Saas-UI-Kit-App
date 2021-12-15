@@ -3,9 +3,9 @@
   display: flex;
   align-items: center;
   background-color: var(--color-white);
-  border-bottom: 0.1rem solid #EBEFF2;
+  border-bottom: 0.1rem solid #ebeff2;
   min-height: 6.4rem;
-  
+
   .head-cell {
     font-size: 1.3rem;
     line-height: 2rem;
@@ -20,21 +20,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.2rem 0rem;
-    input {
-      width: 1.6rem;
-      height: 1.6rem;
-    }
   }
 
-  .status { 
+  .status {
     width: 9.7%;
     min-width: 8.4rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-  .subject { 
+  .subject {
     width: 60.9%;
     min-width: 20rem;
     padding-left: 2.4rem;
@@ -45,13 +40,13 @@
     letter-spacing: 0.1px;
   }
 
-  .last-updated { 
+  .last-updated {
     width: 13.8%;
     min-width: 9rem;
-    padding-left: 2.4rem; 
+    padding-left: 2.4rem;
   }
 
-  .open-rate { 
+  .open-rate {
     padding-left: 3.9rem;
     padding-right: 2.4rem;
     width: 9.6%;
@@ -62,11 +57,11 @@
 .table-row:hover,
 .table-row:focus {
   cursor: pointer;
-  box-shadow: 0px 2px 8px 0px #0000001A;
+  box-shadow: 0px 2px 8px 0px #0000001a;
 }
 
-input[type=checkbox]:checked {
+input[type="checkbox"]:checked {
   .table-row {
     background-color: red;
-}
+  }
 }

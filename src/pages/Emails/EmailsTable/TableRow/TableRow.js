@@ -1,20 +1,18 @@
 import cs from "./TableRow.module.css";
-import StatusTag from "../../../../components/StatusTag/StatusTag";
+import TableCheckbox from "../../../../components/TableCheckbox/TableCheckbox";
 
-function TableRow({ subject, lastUpdated, openRate, ...other }) {
+function TableRow({ subject, lastUpdated, openRate, children }) {
   return (
 
-
     <div className={cs["table-row"]}>
-      <div className={`${cs["head-cell"]} ${cs["checkbox"]}`}>
-        <input type="checkbox" />
+      <div className={cs["checkbox"]}>
+        <TableCheckbox />
       </div>
-      <div className={`${cs["head-cell"]} ${cs["status"]}`}><StatusTag {...other} /></div>
+      <div className={`${cs["head-cell"]} ${cs["status"]}`}>{children}</div>
       <div className={`${cs["head-cell"]} ${cs["subject"]}`}>{subject}</div>
       <div className={`${cs["head-cell"]} ${cs["last-updated"]}`}>{lastUpdated}</div>
       <div className={`${cs["head-cell"]} ${cs["open-rate"]}`}>{openRate}</div>
     </div>
-
 
   );
 }

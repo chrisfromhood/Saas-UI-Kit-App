@@ -13,26 +13,32 @@ function Emails() {
   return (
     <AppPage>
       <div className={cs["content"]}>
-
-        <div>
-          <SortFeature title='Email type' />
-          <SortFeature title='Campaign' />
-        </div>
-
-
-        <div className={cs["btn-wrapper_save"]}>
-          <div className={cs["email-feature_wrapper"]}>
-            <EmailsFeature
-              feature='Import'
-              icon={importIcon}
-            />
-            <EmailsFeature
-              feature='Switch columns'
-              icon={columnsIcon}
-            />
+        <div className={cs["header-wrapper"]}>
+          <div className={cs["sort-feature-wrapper"]}>
+            <SortFeature
+              title='Email type:'
+              all='All' />
+            <SortFeature
+              title='Campaign:'
+              all='All' />
           </div>
-          <Button className={`${cs["btn-default"]}`}>Create mail</Button>
+          <div className={cs["btn-wrapper_save"]}>
+            <div className={cs["email-feature_wrapper"]}>
+              <EmailsFeature
+                feature='Import'
+                icon={importIcon}
+              />
+              <EmailsFeature
+                feature='Switch columns'
+                icon={columnsIcon}
+              />
+            </div>
+            <Button className={`${cs["btn-default"]}`}>Create mail</Button>
+          </div>
         </div>
+
+
+
 
 
 

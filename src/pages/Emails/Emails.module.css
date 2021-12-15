@@ -1,14 +1,20 @@
 .content {
-    background-color: var(--color-background-gray);
-
+  background-color: var(--color-background-gray);
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.5rem 3.8rem 2.4rem 3.6rem;
+    .sort-feature-wrapper {
+      align-self: flex-end;
+    }
     .btn-wrapper_save {
       display: flex;
-
       .email-feature_wrapper {
         display: flex;
         align-self: flex-end;
-        margin-right: 5.6rem;     
+        margin-right: 5.6rem;
       }
     }
-
+  }
 }

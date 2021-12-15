@@ -12,7 +12,7 @@ function EmailCreateContent() {
 
         <div className={cs["content_left"]}>
           <div className={cs["tag_wrapper"]}>
-            <StatusTag draft />
+            <StatusTag yellow>Draft</StatusTag>
           </div>
 
           <div className={cs["email-title"]}>

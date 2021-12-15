@@ -7,8 +7,6 @@ import StatusTag from "../../../components/StatusTag/StatusTag"
 import TextfieldIcon from "../../../components/TextfieldIcon/TextfieldIcon";
 import AssociatedWith from "../../../components/AssociatedWith/AssociatedWith";
 
-
-
 function CreateTask() {
   return (
     <div className={cs["create-task_container"]}>
@@ -65,9 +63,6 @@ function CreateTask() {
       </div>
 
     </div>
-
-
-
 
   );
 }
